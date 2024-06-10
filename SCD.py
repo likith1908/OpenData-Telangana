@@ -86,7 +86,12 @@ if st.session_state['Homepage']:
     # Toggle the Homepage
     st.sidebar.button("Go to Homepage", on_click=lambda: st.session_state.update({'Homepage': True}), key='homepage_button')
 
-
+if st.sidebar.button("Future Implementations"):
+        st.experimental_set_query_params()
+        # Redirect to the Wind Speed Prediction App
+        st.experimental_rerun()
+        st.experimental_redirect("https://wind-speed-prediction.streamlit.app/")
+    
 # Sector selection
 sector_options = ['Agriculture', 'Health', 'Infrastructure']
 selected_sector = st.sidebar.selectbox('Select a sector', sector_options)
