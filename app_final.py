@@ -62,12 +62,19 @@ pages = {
 }
 
 def main():
+    def main():
     # Navigation sidebar
     st.sidebar.title("Navigation")
     selection = st.sidebar.radio("Go to", list(pages.keys()))
     
     # Display the selected page with its contents
     pages[selection]()
+
+    # Add button in the sidebar
+    if selection != "Home":  # Exclude button from the Home page
+        if st.sidebar.button("Future Implementations"):
+            st.markdown("<script>window.open('https://wind-speed-prediction.streamlit.app/', '_blank');</script>", unsafe_allow_html=True)
+
 
 if __name__ == "__main__":
     main()
