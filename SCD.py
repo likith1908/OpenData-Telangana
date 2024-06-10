@@ -199,8 +199,7 @@ elif selected_sector == 'Infrastructure':
         st.plotly_chart(fig)
 
 
-
 if st.sidebar.button("Future Implementations"):
     st.experimental_set_query_params()
     st.experimental_rerun()
-    st.experimental_redirect("https://wind-speed-prediction.streamlit.app/")
+    st.markdown("<script>window.open('https://wind-speed-prediction.streamlit.app/', '_blank');</script>", unsafe_allow_html=True)
