@@ -63,11 +63,11 @@ st.markdown("""
 
 
 
-# Homepage
-if 'Homepage' not in st.session_state:
-    st.session_state['Homepage'] = True
+# # Homepage
+# if 'Homepage' not in st.session_state:
+#     st.session_state['Homepage'] = True
 
-if st.session_state['Homepage']:
+def home():
     st.markdown("<h2 style='text-align: center; font-size: 24px;'>Welcome to the Visual Space!</h2>", unsafe_allow_html=True)
     st.markdown("""
         ### Overview
@@ -84,14 +84,16 @@ if st.session_state['Homepage']:
     """)
 
     # Toggle the Homepage
-    st.sidebar.button("Go to Homepage", on_click=lambda: st.session_state.update({'Homepage': True}), key='homepage_button')
+    # st.sidebar.button("Go to Homepage", on_click=lambda: st.session_state.update({'Homepage': True}), key='homepage_button')
 
 def future_implementations():
     st.write("""Here we are using Adilabad weather data to predict wind speed using temperature and humidity as inputs. This can be extended to any other districts data. """)
     st.link_button("Click here for the prediction","https://wind-speed-prediction.streamlit.app/")
 
+
 # Page configuration
 pages = {
+    "Home": home,
     "Future Implementations": future_implementations
 }
 
