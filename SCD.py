@@ -4,11 +4,11 @@ import plotly.express as px
 
 # Define file paths
 agriculture_files = {
-    "Ground Water Level": 'DataSets/AgricultureTelangana_GrounWaterLevel_Overall/Telangana_GrounWaterLevel_Overall.csv',
-    "Suryapet Crop": 'DataSets/AgricultureSuryapet_mandal_wise_crop/Suryapet_mandal_wise_crop.csv',
-    "Cash Crops": 'DataSets/AgricultureCash_crops_2016-2017/Cash_crops_2016-2017.csv',
-    "Adilabad Crop": 'DataSets/AgricultureAdilabad_mandal_wise_crop/Adilabad_mandal_wise_crop.csv',
-    "Cereals and Millets": 'DataSets/AgricultureCereals_and_Millets_2016-2017/Cereals_and_Millets_2016-2017.csv'
+    "Ground Water Level": 'DataSets/Agriculture/Telangana_GrounWaterLevel_Overall/Telangana_GrounWaterLevel_Overall.csv',
+    "Suryapet Crop": 'DataSets/Agriculture/Suryapet_mandal_wise_crop/Suryapet_mandal_wise_crop.csv',
+    "Cash Crops": 'DataSets/Agriculture/Cash_crops_2016-2017/Cash_crops_2016-2017.csv',
+    "Adilabad Crop": 'DataSets/Agriculture/Adilabad_mandal_wise_crop/Adilabad_mandal_wise_crop.csv',
+    "Cereals and Millets": 'DataSets/Agriculture/Cereals_and_Millets_2016-2017/Cereals_and_Millets_2016-2017.csv'
 }
 
 health_files = {
