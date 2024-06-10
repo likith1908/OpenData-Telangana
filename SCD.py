@@ -2,31 +2,29 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-# Define file paths
 agriculture_files = {
-    "Ground Water Level": '/Users/aashrithalikki/data exraction_SC/Extraction_f/Agriculture/Telangana_GrounWaterLevel_Overall/Telangana_GrounWaterLevel_Overall.csv',
-    "Suryapet Crop": '/Users/aashrithalikki/data exraction_SC/Extraction_f/Agriculture/Suryapet_mandal_wise_crop/Suryapet_mandal_wise_crop.csv',
-    "Cash Crops": '/Users/aashrithalikki/data exraction_SC/Extraction_f/Agriculture/Cash_crops_2016-2017/Cash_crops_2016-2017.csv',
-    "Adilabad Crop": '/Users/aashrithalikki/data exraction_SC/Extraction_f/Agriculture/Adilabad_mandal_wise_crop/Adilabad_mandal_wise_crop.csv',
-    "Cereals and Millets": '/Users/aashrithalikki/data exraction_SC/Extraction_f/Agriculture/Cereals_and_Millets_2016-2017/Cereals_and_Millets_2016-2017.csv'
+    "Ground Water Level": 'DataSets/Agriculture/Telangana_GrounWaterLevel_Overall/Telangana_GrounWaterLevel_Overall.csv',
+    "Suryapet Crop": 'DataSets/Agriculture/Suryapet_mandal_wise_crop/Suryapet_mandal_wise_crop.csv',
+    "Cash Crops": 'DataSets/Agriculture/Cash_crops_2016-2017/Cash_crops_2016-2017.csv',
+    "Adilabad Crop": 'DataSets/Agriculture/Adilabad_mandal_wise_crop/Adilabad_mandal_wise_crop.csv',
+    "Cereals and Millets": 'DataSets/Agriculture/Cereals_and_Millets_2016-2017/Cereals_and_Millets_2016-2017.csv'
 }
 
 health_files = {
-    "Urban Health Centers": '/Users/aashrithalikki/data exraction_SC/Extraction_f/Health/Urban Health Centers.csv',
-    "Primary Health Centers": '/Users/aashrithalikki/data exraction_SC/Extraction_f/Health/Primary Health Centers.csv',
-    "District Health Assets": '/Users/aashrithalikki/data exraction_SC/Extraction_f/Health/District wise health general asset .csv',
-    "Area of Hospitals": '/Users/aashrithalikki/data exraction_SC/Extraction_f/Health/Area of Hospitals .csv',
-    "Community Health Centers": '/Users/aashrithalikki/data exraction_SC/Extraction_f/Health/Community Health Centers.csv',
-    "Overview of Hospitals": '/Users/aashrithalikki/data exraction_SC/Extraction_f/Health/overview_of_hospitals.csv'
+    "Urban Health Centers": 'DataSets/Health/Urban Health Centers.csv',
+    "Primary Health Centers": 'DataSets/Health/Primary Health Centers.csv',
+    "District Health Assets": 'DataSets/Health/District wise health general asset .csv',
+    "Area of Hospitals": 'DataSets/Health/Area of Hospitals .csv',
+    "Community Health Centers": 'DataSets/Health/Community Health Centers.csv',
+    "Overview of Hospitals": 'DataSets/Health/overview_of_hospitals.csv'
 }
 
 infrastructure_files = {
-    "Classification of Roads": '/Users/aashrithalikki/data exraction_SC/Extraction_f/infrastructure/Classification of Roads.csv',
-    "Mission Kakateeya": '/Users/aashrithalikki/data exraction_SC/Extraction_f/infrastructure/Mission Kakateeya.csv',
-    "Electricity Connections": '/Users/aashrithalikki/data exraction_SC/Extraction_f/infrastructure/Electricity Connections.csv',
-    "2BHK Housing Scheme": '/Users/aashrithalikki/data exraction_SC/Extraction_f/infrastructure/2BHK Housing Scheme.csv'
+    "Classification of Roads": 'DataSets/infrastructure/Classification of Roads.csv',
+    "Mission Kakateeya": 'DataSets/infrastructure/Mission Kakateeya.csv',
+    "Electricity Connections": 'DataSets/infrastructure/Electricity Connections.csv',
+    "2BHK Housing Scheme": 'DataSets/infrastructure/2BHK Housing Scheme.csv'
 }
-
 
 
 # Define a function to load and display data
