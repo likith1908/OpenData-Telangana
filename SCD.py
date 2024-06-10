@@ -199,5 +199,18 @@ elif selected_sector == 'Infrastructure':
         st.plotly_chart(fig)
 
 
-if st.sidebar.button("Future Implementations"):
-    st.markdown("<script>window.open('https://wind-speed-prediction.streamlit.app/', '_blank');</script>", unsafe_allow_html=True)
+pages = {
+    "Future Implementations": future_implementations
+}
+
+def future_implementations():
+    st.write("""Here we are using Adilabad weather data to predict wind speed using temperature and humidity as inputs. This can be extended to any other districts data. """)
+    st.link_button("Click here for the prediction","https://wind-speed-prediction.streamlit.app/")
+
+def main():
+    # Navigation sidebar
+    st.sidebar.title("Navigation")
+    selection = st.sidebar.radio("Go to", list(pages.keys()))
+    
+    # Display the selected page with its contents
+    pages[selection]()
