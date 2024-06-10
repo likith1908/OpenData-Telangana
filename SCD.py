@@ -27,45 +27,11 @@ infrastructure_files = {
     "2BHK Housing Scheme": 'DataSets/infrastructure/2BHK Housing Scheme.csv'
 }
 
-
-
 # Define a function to load and display data
 def load_and_display_data(file_path):
     df = pd.read_csv(file_path)
     st.write(df)
     return df
-
-# st.title('')
-# st.markdown("""
-#     <div style='text-align: center;'>
-#         <img src='https://th-i.thgim.com/public/news/cities/Hyderabad/xqc285/article68242644.ece/alternates/FREE_1200/Telangana%20State%20emblem.jpg' 
-#              width='150'>
-#     </div>
-# """, unsafe_allow_html=True)
-
-# st.markdown("""
-#     <h1 style='text-align: center;'>Telangana Open Data Dashboard</h1>
-# """, unsafe_allow_html=True)
-# st.markdown("""
-#     <div style='text-align: center;'>
-#         <p style='font-size: 20px;'>
-#             Telangana, known for its vibrant culture and rapid development, is a state in southern India. 
-#             Explore the data dashboard to uncover insights into Telangana's key sectors—Agriculture, Health, and Infrastructure.
-#             Discover valuable information and gain actionable insights for informed decision-making.
-#         </p>
-#         <div style="display: flex; justify-content: center;">
-#             <img src="https://images.moneycontrol.com/static-mcnews/2023/03/Article-3-Image1-770x433.jpg?impolicy=website&width=770&height=431" style="width: 150px; margin-right: 10px;">
-#             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO_9Grw3i0fLlsfzCWkiiVI0RmwOhW3KhfEulsq-2RE4yxRg8mxT1wKuTef-y94K5_C2M&usqp=CAU" style="width: 150px; margin-right: 10px;">
-#             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd9UfRxGcFnJZdVMlPqfhFvv29ODHhUSCScw&s" style="width: 150px;">
-#         </div>
-#     </div>
-# """, unsafe_allow_html=True)
-
-
-
-# # Homepage
-# if 'Homepage' not in st.session_state:
-#     st.session_state['Homepage'] = True
 
 def home():
     st.markdown("<h2 style='text-align: center; font-size: 24px;'>Welcome to the Visual Space!</h2>", unsafe_allow_html=True)
@@ -83,12 +49,35 @@ def home():
         Choose a sector and sub-sector from the sidebar to explore detailed information and visualize data.
     """)
 
-    # Toggle the Homepage
-    # st.sidebar.button("Go to Homepage", on_click=lambda: st.session_state.update({'Homepage': True}), key='homepage_button')
 
 def future_implementations():
     st.write("""Here we are using Adilabad weather data to predict wind speed using temperature and humidity as inputs. This can be extended to any other districts data. """)
     st.link_button("Click here for the prediction","https://wind-speed-prediction.streamlit.app/")
+
+# Assuming these functions are defined elsewhere in your code
+def load_and_display_data(file_path):
+    # Placeholder function for loading and displaying data
+    # Replace this with actual logic to load and display data
+    return pd.DataFrame()  # Return a sample DataFrame for demonstration
+
+# Example dictionaries for agriculture, health, and infrastructure files
+agriculture_files = {
+    'Ground Water Level': 'path/to/gw_level.csv',
+    'Suryapet Crop': 'path/to/suryapet_crop.csv',
+    # Add other agriculture files here
+}
+
+health_files = {
+    'Urban Health Centers': 'path/to/urban_health_centers.csv',
+    'Primary Health Centers': 'path/to/primary_health_centers.csv',
+    # Add other health files here
+}
+
+infrastructure_files = {
+    '2BHK Housing Scheme': 'path/to/2bkhousing_scheme.csv',
+    'Classification of Roads': 'path/to/classification_of_roads.csv',
+    # Add other infrastructure files here
+}
 
 # Define your sectors function
 def sectors():
@@ -97,7 +86,7 @@ def sectors():
     selected_sector = st.selectbox('Select a sector', sector_options)
 
     if selected_sector == 'Agriculture':
-        agriculture_options = list(agriculture_files.keys())  # Ensure this dictionary is defined
+        agriculture_options = list(agriculture_files.keys())
         selected_agriculture_sector = st.selectbox('Select a sub-sector', agriculture_options)
 
         st.header(f'Agriculture Data: {selected_agriculture_sector}')
@@ -108,14 +97,19 @@ def sectors():
             fig = px.bar(df_agriculture, x='mandal', y='value', title='Ground Water Level by Mandal')
         elif selected_agriculture_sector == 'Suryapet Crop':
             fig = px.bar(df_agriculture, x='mandalname', y='actualareasown', title='Suryapet Crop Area by Mandal')
-        # Add other conditions here...
+        elif selected_agriculture_sector == 'Cash Crops':
+            fig = px.bar(df_agriculture, x='crop', y='area_total', title='Cash Crops Area by Crop')
+        elif selected_agriculture_sector == 'Adilabad Crop':
+            fig = px.bar(df_agriculture, x='mandal_name', y='actual_area', title='Adilabad Crop Area by Mandal')
+        elif selected_agriculture_sector == 'Cereals and Millets':
+            fig = px.bar(df_agriculture, x='crop', y='area_total', title='Cereals and Millets Area by Crop')
         else:
-            fig = px.bar(df_agriculture, x='crop', y='area_total', title='Default Title')  # Default case
-        
+            fig = px.bar(df_agriculture, x='crop', y='area_total', title='General Agriculture Data')
+
         st.plotly_chart(fig)
 
     elif selected_sector == 'Health':
-        health_options = list(health_files.keys())  # Ensure this dictionary is defined
+        health_options = list(health_files.keys())
         selected_health_sector = st.selectbox('Select a sub-sector', health_options)
 
         st.header(f'Health Data: {selected_health_sector}')
@@ -124,14 +118,23 @@ def sectors():
         # Visualization for Health data
         if 'Urban Health Centers' in selected_health_sector:
             fig = px.bar(df_health, x='Districts', y='SITE AREA ACRES', title='Urban Health Centers by District')
-        # Add other conditions here...
+        elif selected_health_sector == 'Primary Health Centers':
+            fig = px.bar(df_health, x='Districts', y='SITE AREA ACRES', title='Primary Health Centers by District')
+        elif selected_health_sector == 'District Health Assets':
+            fig = px.bar(df_health, x='Districts_Hospital', y='SITE AREA ACRES', title='District Health Assets by Hospital')
+        elif selected_health_sector == 'Community Health Centers':
+            fig = px.bar(df_health, x='Districts', y='SITE AREA ACRES', title='Community Health Centers by District')
+        elif selected_health_sector == 'Overview of Hospitals':
+            fig = px.bar(df_health, x='record_number', y='area_hospitals', title='Overview of Hospitals')
+        elif selected_health_sector == 'Area of Hospitals':
+            fig = px.bar(df_health, x='VILLAGE NAME', y='SITE AREA ACRES', title='Area of Hospitals by Village')
         else:
-            fig = px.bar(df_health, x='Districts', y='SITE AREA ACRES', title='Default Title')  # Default case
-        
+            fig = px.bar(df_health, x='Districts', y='SITE AREA ACRES', title='General Health Data')
+
         st.plotly_chart(fig)
 
     elif selected_sector == 'Infrastructure':
-        infrastructure_options = list(infrastructure_files.keys())  # Ensure this dictionary is defined
+        infrastructure_options = list(infrastructure_files.keys())
         selected_infrastructure_sector = st.selectbox('Select a sub-sector', infrastructure_options)
 
         st.header(f'Infrastructure Data: {selected_infrastructure_sector}')
@@ -141,10 +144,19 @@ def sectors():
         if selected_infrastructure_sector == '2BHK Housing Scheme':
             fig = px.bar(df_infrastructure, x='Districts', y=['Houses Allotted', 'Houses Allotted Rural', 'Houses Allotted Urban', 'Houses Sanctioned'],
                          title='2BHK Housing Scheme by District')
-        # Add other conditions here...
-        else:
-            fig = px.bar(df_infrastructure, x='District', y=['Four Lane Roads'], title='Default Title')  # Default case
-        
+        elif selected_infrastructure_sector == 'Classification of Roads':
+            fig = px.bar(df_infrastructure, x='District', y=['Four Lane Roads', 'Double Lane Roads', 'Intermediate Lane Roads', 'Single Lane Roads'],
+                         title='Classification of Roads by District')
+        elif selected_infrastructure_sector == 'Electricity Connections':
+            fig = px.bar(df_infrastructure, x='Districts', y=['Domestic Connections', 'Industrial Connections', 'Agriculture Connections', 'Commercial Connections', 'Other Connections'],
+                         title='Electricity Connections by District')
+        elif selected_infrastructure_sector == 'Gram Panchayat Roads':
+            fig = px.bar(df_infrastructure, x='Districts', y=['GPs having BT roads', 'GPs to be covered with BT roads', 'Total Habitations (other than GPs)', 'Habitations having all weather roads', 'Habitations not having all weather roads'],
+                         title='Gram Panchayat Roads by District')
+        elif selected_infrastructure_sector == 'Mission Kakateeya':
+            fig = px.bar(df_infrastructure, x='Districts', y=['Minor Irrigation Tanks', 'Sanctions Mission Kakatiya Phase-I', 'Sanctions Mission Kakatiya Phase-II'],
+                         title='Mission Kakateeya by District')
+            
         st.plotly_chart(fig)
 
 
