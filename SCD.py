@@ -90,6 +90,63 @@ def future_implementations():
     st.write("""Here we are using Adilabad weather data to predict wind speed using temperature and humidity as inputs. This can be extended to any other districts data. """)
     st.link_button("Click here for the prediction","https://wind-speed-prediction.streamlit.app/")
 
+# Define your sectors function
+def sectors():
+    # Sector selection
+    sector_options = ['Agriculture', 'Health', 'Infrastructure']
+    selected_sector = st.selectbox('Select a sector', sector_options)
+
+    if selected_sector == 'Agriculture':
+        agriculture_options = list(agriculture_files.keys())  # Ensure this dictionary is defined
+        selected_agriculture_sector = st.selectbox('Select a sub-sector', agriculture_options)
+
+        st.header(f'Agriculture Data: {selected_agriculture_sector}')
+        df_agriculture = load_and_display_data(agriculture_files[selected_agriculture_sector])
+
+        # Visualization for Agriculture data
+        if selected_agriculture_sector == 'Ground Water Level':
+            fig = px.bar(df_agriculture, x='mandal', y='value', title='Ground Water Level by Mandal')
+        elif selected_agriculture_sector == 'Suryapet Crop':
+            fig = px.bar(df_agriculture, x='mandalname', y='actualareasown', title='Suryapet Crop Area by Mandal')
+        # Add other conditions here...
+        else:
+            fig = px.bar(df_agriculture, x='crop', y='area_total', title='Default Title')  # Default case
+        
+        st.plotly_chart(fig)
+
+    elif selected_sector == 'Health':
+        health_options = list(health_files.keys())  # Ensure this dictionary is defined
+        selected_health_sector = st.selectbox('Select a sub-sector', health_options)
+
+        st.header(f'Health Data: {selected_health_sector}')
+        df_health = pd.read_csv(health_files[selected_health_sector])
+
+        # Visualization for Health data
+        if 'Urban Health Centers' in selected_health_sector:
+            fig = px.bar(df_health, x='Districts', y='SITE AREA ACRES', title='Urban Health Centers by District')
+        # Add other conditions here...
+        else:
+            fig = px.bar(df_health, x='Districts', y='SITE AREA ACRES', title='Default Title')  # Default case
+        
+        st.plotly_chart(fig)
+
+    elif selected_sector == 'Infrastructure':
+        infrastructure_options = list(infrastructure_files.keys())  # Ensure this dictionary is defined
+        selected_infrastructure_sector = st.selectbox('Select a sub-sector', infrastructure_options)
+
+        st.header(f'Infrastructure Data: {selected_infrastructure_sector}')
+        df_infrastructure = pd.read_csv(infrastructure_files[selected_infrastructure_sector])
+
+        # Visualization for Infrastructure data
+        if selected_infrastructure_sector == '2BHK Housing Scheme':
+            fig = px.bar(df_infrastructure, x='Districts', y=['Houses Allotted', 'Houses Allotted Rural', 'Houses Allotted Urban', 'Houses Sanctioned'],
+                         title='2BHK Housing Scheme by District')
+        # Add other conditions here...
+        else:
+            fig = px.bar(df_infrastructure, x='District', y=['Four Lane Roads'], title='Default Title')  # Default case
+        
+        st.plotly_chart(fig)
+
 
 # Page configuration
 pages = {
@@ -223,61 +280,4 @@ if __name__ == "__main__":
 #         st.plotly_chart(fig)
 
 # -----------------------------------------------------------
-
-# Define your sectors function
-def sectors():
-    # Sector selection
-    sector_options = ['Agriculture', 'Health', 'Infrastructure']
-    selected_sector = st.selectbox('Select a sector', sector_options)
-
-    if selected_sector == 'Agriculture':
-        agriculture_options = list(agriculture_files.keys())  # Ensure this dictionary is defined
-        selected_agriculture_sector = st.selectbox('Select a sub-sector', agriculture_options)
-
-        st.header(f'Agriculture Data: {selected_agriculture_sector}')
-        df_agriculture = load_and_display_data(agriculture_files[selected_agriculture_sector])
-
-        # Visualization for Agriculture data
-        if selected_agriculture_sector == 'Ground Water Level':
-            fig = px.bar(df_agriculture, x='mandal', y='value', title='Ground Water Level by Mandal')
-        elif selected_agriculture_sector == 'Suryapet Crop':
-            fig = px.bar(df_agriculture, x='mandalname', y='actualareasown', title='Suryapet Crop Area by Mandal')
-        # Add other conditions here...
-        else:
-            fig = px.bar(df_agriculture, x='crop', y='area_total', title='Default Title')  # Default case
-        
-        st.plotly_chart(fig)
-
-    elif selected_sector == 'Health':
-        health_options = list(health_files.keys())  # Ensure this dictionary is defined
-        selected_health_sector = st.selectbox('Select a sub-sector', health_options)
-
-        st.header(f'Health Data: {selected_health_sector}')
-        df_health = pd.read_csv(health_files[selected_health_sector])
-
-        # Visualization for Health data
-        if 'Urban Health Centers' in selected_health_sector:
-            fig = px.bar(df_health, x='Districts', y='SITE AREA ACRES', title='Urban Health Centers by District')
-        # Add other conditions here...
-        else:
-            fig = px.bar(df_health, x='Districts', y='SITE AREA ACRES', title='Default Title')  # Default case
-        
-        st.plotly_chart(fig)
-
-    elif selected_sector == 'Infrastructure':
-        infrastructure_options = list(infrastructure_files.keys())  # Ensure this dictionary is defined
-        selected_infrastructure_sector = st.selectbox('Select a sub-sector', infrastructure_options)
-
-        st.header(f'Infrastructure Data: {selected_infrastructure_sector}')
-        df_infrastructure = pd.read_csv(infrastructure_files[selected_infrastructure_sector])
-
-        # Visualization for Infrastructure data
-        if selected_infrastructure_sector == '2BHK Housing Scheme':
-            fig = px.bar(df_infrastructure, x='Districts', y=['Houses Allotted', 'Houses Allotted Rural', 'Houses Allotted Urban', 'Houses Sanctioned'],
-                         title='2BHK Housing Scheme by District')
-        # Add other conditions here...
-        else:
-            fig = px.bar(df_infrastructure, x='District', y=['Four Lane Roads'], title='Default Title')  # Default case
-        
-        st.plotly_chart(fig)
 
