@@ -86,7 +86,26 @@ if st.session_state['Homepage']:
     # Toggle the Homepage
     st.sidebar.button("Go to Homepage", on_click=lambda: st.session_state.update({'Homepage': True}), key='homepage_button')
 
+def future_implementations():
+    st.write("""Here we are using Adilabad weather data to predict wind speed using temperature and humidity as inputs. This can be extended to any other districts data. """)
+    st.link_button("Click here for the prediction","https://wind-speed-prediction.streamlit.app/")
+
+# Page configuration
+pages = {
+    "Future Implementations": future_implementations
+}
+
+def main():
+    # Navigation sidebar
+    st.sidebar.title("Navigation")
+    selection = st.sidebar.radio("Go to", list(pages.keys()))
     
+    # Display the selected page with its contents
+    pages[selection]()
+
+if __name__ == "__main__":
+    main()
+
 # Sector selection
 sector_options = ['Agriculture', 'Health', 'Infrastructure']
 selected_sector = st.sidebar.selectbox('Select a sector', sector_options)
@@ -198,21 +217,3 @@ elif selected_sector == 'Infrastructure':
                      title='Mission Kakateeya by District')
         st.plotly_chart(fig)
 
-
-pages = {
-    "Future Implementations": future_implementations()
-}
-
-def future_implementations():
-    st.write("""Here we are using Adilabad weather data to predict wind speed using temperature and humidity as inputs. This can be extended to any other districts data. """)
-    st.link_button("Click here for the prediction","https://wind-speed-prediction.streamlit.app/")
-
-def main():
-    # Navigation sidebar
-    st.sidebar.title("Navigation")
-    selection = st.sidebar.radio("Go to", list(pages.keys()))
-    
-    # Display the selected page with its contents
-    pages[selection]()
-if __name__ == "__main__":
-    main()
