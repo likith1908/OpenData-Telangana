@@ -39,7 +39,7 @@ def future_implementations():
 def sectors():
     st.title("Sectors")
     st.subheader("Select a sector to view")
-    sectors_list = ["Health", "Agriculture", "Water Quality", "Future_Implementations"]
+    sectors_list = ["Health", "Agriculture", "Water Quality"]
     sector_selection = st.selectbox("Choose a sector:", sectors_list)
     
     if sector_selection == "Health":
