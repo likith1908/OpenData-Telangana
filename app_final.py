@@ -61,8 +61,8 @@ pages = {
     "Team": team,  # Ensure 'team' function is also defined
 }
 
+
 def main():
-    def main():
     # Navigation sidebar
     st.sidebar.title("Navigation")
     selection = st.sidebar.radio("Go to", list(pages.keys()))
