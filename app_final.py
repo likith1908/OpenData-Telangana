@@ -63,7 +63,7 @@ pages = {
     "Home": home,
     "Sectors": sectors,
     "Team": team,
-    "Future_Implementations": future_implementations
+    "Future Implementations": future_implementations
 }
 def main():
     # Navigation sidebar
