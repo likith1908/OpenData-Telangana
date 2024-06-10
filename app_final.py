@@ -31,6 +31,10 @@ def team():
     for member in team_members:
         st.text(member)
 
+def future_implementations():
+    st.write("""Here we are using Adilabad weather data to predict wind speed using temperature and humidity as inputs. This can be extended to any other districts data. """)
+    st.link_button("Click here for the prediction","https://wind-speed-prediction.streamlit.app/")
+    
 # Define the sectors page function
 def sectors():
     st.title("Sectors")
@@ -61,10 +65,6 @@ pages = {
     "Team": team,
     "Future_Implementations": future_implementations
 }
-
-def future_implementations():
-    st.write("""Here we are using Adilabad weather data to predict wind speed using temperature and humidity as inputs. This can be extended to any other districts data. """)
-    st.link_button("Click here for the prediction","https://wind-speed-prediction.streamlit.app/")
 def main():
     # Navigation sidebar
     st.sidebar.title("Navigation")
