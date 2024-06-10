@@ -35,31 +35,31 @@ def load_and_display_data(file_path):
     st.write(df)
     return df
 
-st.title('')
-st.markdown("""
-    <div style='text-align: center;'>
-        <img src='https://th-i.thgim.com/public/news/cities/Hyderabad/xqc285/article68242644.ece/alternates/FREE_1200/Telangana%20State%20emblem.jpg' 
-             width='150'>
-    </div>
-""", unsafe_allow_html=True)
+# st.title('')
+# st.markdown("""
+#     <div style='text-align: center;'>
+#         <img src='https://th-i.thgim.com/public/news/cities/Hyderabad/xqc285/article68242644.ece/alternates/FREE_1200/Telangana%20State%20emblem.jpg' 
+#              width='150'>
+#     </div>
+# """, unsafe_allow_html=True)
 
-st.markdown("""
-    <h1 style='text-align: center;'>Telangana Open Data Dashboard</h1>
-""", unsafe_allow_html=True)
-st.markdown("""
-    <div style='text-align: center;'>
-        <p style='font-size: 20px;'>
-            Telangana, known for its vibrant culture and rapid development, is a state in southern India. 
-            Explore the data dashboard to uncover insights into Telangana's key sectors—Agriculture, Health, and Infrastructure.
-            Discover valuable information and gain actionable insights for informed decision-making.
-        </p>
-        <div style="display: flex; justify-content: center;">
-            <img src="https://images.moneycontrol.com/static-mcnews/2023/03/Article-3-Image1-770x433.jpg?impolicy=website&width=770&height=431" style="width: 150px; margin-right: 10px;">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO_9Grw3i0fLlsfzCWkiiVI0RmwOhW3KhfEulsq-2RE4yxRg8mxT1wKuTef-y94K5_C2M&usqp=CAU" style="width: 150px; margin-right: 10px;">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd9UfRxGcFnJZdVMlPqfhFvv29ODHhUSCScw&s" style="width: 150px;">
-        </div>
-    </div>
-""", unsafe_allow_html=True)
+# st.markdown("""
+#     <h1 style='text-align: center;'>Telangana Open Data Dashboard</h1>
+# """, unsafe_allow_html=True)
+# st.markdown("""
+#     <div style='text-align: center;'>
+#         <p style='font-size: 20px;'>
+#             Telangana, known for its vibrant culture and rapid development, is a state in southern India. 
+#             Explore the data dashboard to uncover insights into Telangana's key sectors—Agriculture, Health, and Infrastructure.
+#             Discover valuable information and gain actionable insights for informed decision-making.
+#         </p>
+#         <div style="display: flex; justify-content: center;">
+#             <img src="https://images.moneycontrol.com/static-mcnews/2023/03/Article-3-Image1-770x433.jpg?impolicy=website&width=770&height=431" style="width: 150px; margin-right: 10px;">
+#             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO_9Grw3i0fLlsfzCWkiiVI0RmwOhW3KhfEulsq-2RE4yxRg8mxT1wKuTef-y94K5_C2M&usqp=CAU" style="width: 150px; margin-right: 10px;">
+#             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd9UfRxGcFnJZdVMlPqfhFvv29ODHhUSCScw&s" style="width: 150px;">
+#         </div>
+#     </div>
+# """, unsafe_allow_html=True)
 
 
 
