@@ -14,7 +14,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score, e
 
 def load_weather_dataset():
     # Load your weather dataset from a CSV file
-    df = pd.read_csv('/Users/likithgannarapu/Desktop/MU/Sem 6/Social Computing/Streamlit/Extraction_f/weather_data/new_adilabad.csv')  # Update the path to your dataset
+    df = pd.read_csv('Future_Implementations/new_adilabad.csv')  # Update the path to your dataset
     return df
 
 def get_model(algorithm):
