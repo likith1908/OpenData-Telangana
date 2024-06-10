@@ -1,0 +1,8 @@
+record_number,crop,area_kharif,area_rabi,area_total,production_kharif,production_rabi,production_total,yeild_kharif,yeild_rabi,yeild_total
+1,Cotton,14.09,0,14.09,34.44,0,34.44,416,0,416
+2,Sugarcane,0.26,0,0.26,20.60,0,20.60,79157,0,79157
+3,Onion,0.06,0.09,0.15,0.93,3.09,4.02,15098,32843,25833
+4,Potato,N,0.03,0.03,0.01,0.32,0.33,10946,10143,10152
+5,Chillies,1.10,0.14,1.24,4.02,0.81,4.83,3662,5543,3884
+6,Turmeric,0.51,N,0.51,3.05,N,3.05,6033,6044,6033
+7,Tobacco,0.03,0.04,0.07,0.07,0.12,0.19,2724,2955,2864

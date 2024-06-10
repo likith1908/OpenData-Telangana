@@ -1,0 +1,323 @@
+record_number,year,season,districtname,mandalname,crop,normalareasown,actualareasown
+1,2016-2017,Kharif,Suryapet,Ananthagiri,Paddy,,2468
+2,2016-2017,Kharif,Suryapet,Athmakur,Paddy,2263,2080
+3,2016-2017,Kharif,Suryapet,Chilkur,Paddy,6674,6210
+4,2016-2017,Kharif,Suryapet,Chinthalapalem,Paddy,,117
+5,2016-2017,Kharif,Suryapet,Chivemla,Paddy,1224,1181
+6,2016-2017,Kharif,Suryapet,Garidepally,Paddy,7595,9040
+7,2016-2017,Kharif,Suryapet,Huzurnagar,Paddy,5793,6396
+8,2016-2017,Kharif,Suryapet,Jajireddygudem,Paddy,1661,1119
+9,2016-2017,Kharif,Suryapet,Kodad,Paddy,8207,4366
+10,2016-2017,Kharif,Suryapet,Maddirala,Paddy,,1286
+11,2016-2017,Kharif,Suryapet,Mattampally,Paddy,3619,4191
+12,2016-2017,Kharif,Suryapet,Mellachervu,Paddy,2228,1562
+13,2016-2017,Kharif,Suryapet,Mothey,Paddy,1925,1050
+14,2016-2017,Kharif,Suryapet,Munagala,Paddy,3414,3605
+15,2016-2017,Kharif,Suryapet,Nadigudem,Paddy,4112,2462
+16,2016-2017,Kharif,Suryapet,Nagaram,Paddy,,1281
+17,2016-2017,Kharif,Suryapet,Neredcherla,Paddy,8351,7631
+18,2016-2017,Kharif,Suryapet,Nutankal,Paddy,2229,1264
+19,2016-2017,Kharif,Suryapet,Palakeedu,Paddy,,3191
+20,2016-2017,Kharif,Suryapet,Penpahad,Paddy,3582,2700
+21,2016-2017,Kharif,Suryapet,Suryapet,Paddy,3560,2502
+22,2016-2017,Kharif,Suryapet,Tirmalgiri,Paddy,1287,916
+23,2016-2017,Kharif,Suryapet,Tungaturty,Paddy,1434,1166
+24,2016-2017,Kharif,Suryapet,Ananthagiri,Sugarcane,,430
+25,2016-2017,Kharif,Suryapet,Athmakur,Sugarcane,3,3
+26,2016-2017,Kharif,Suryapet,Chilkur,Sugarcane,6,17
+27,2016-2017,Kharif,Suryapet,Chinthalapalem,Sugarcane,,0
+28,2016-2017,Kharif,Suryapet,Chivemla,Sugarcane,0,0
+29,2016-2017,Kharif,Suryapet,Garidepally,Sugarcane,5,1
+30,2016-2017,Kharif,Suryapet,Huzurnagar,Sugarcane,8,15
+31,2016-2017,Kharif,Suryapet,Jajireddygudem,Sugarcane,0,0
+32,2016-2017,Kharif,Suryapet,Kodad,Sugarcane,165,48
+33,2016-2017,Kharif,Suryapet,Maddirala,Sugarcane,,0
+34,2016-2017,Kharif,Suryapet,Mattampally,Sugarcane,3,2
+35,2016-2017,Kharif,Suryapet,Mellachervu,Sugarcane,12,2
+36,2016-2017,Kharif,Suryapet,Mothey,Sugarcane,3,2
+37,2016-2017,Kharif,Suryapet,Munagala,Sugarcane,22,12
+38,2016-2017,Kharif,Suryapet,Nadigudem,Sugarcane,351,195
+39,2016-2017,Kharif,Suryapet,Nagaram,Sugarcane,,0
+40,2016-2017,Kharif,Suryapet,Neredcherla,Sugarcane,6,0
+41,2016-2017,Kharif,Suryapet,Nutankal,Sugarcane,0,0
+42,2016-2017,Kharif,Suryapet,Palakeedu,Sugarcane,,0
+43,2016-2017,Kharif,Suryapet,Penpahad,Sugarcane,6,7
+44,2016-2017,Kharif,Suryapet,Suryapet,Sugarcane,16,6
+45,2016-2017,Kharif,Suryapet,Tirmalgiri,Sugarcane,0,0
+46,2016-2017,Kharif,Suryapet,Tungaturty,Sugarcane,0,0
+47,2016-2017,Kharif,Suryapet,Ananthagiri,Chililes,,31
+48,2016-2017,Kharif,Suryapet,Athmakur,Chililes,103,63
+49,2016-2017,Kharif,Suryapet,Chilkur,Chililes,0,20
+50,2016-2017,Kharif,Suryapet,Chinthalapalem,Chililes,,1820
+51,2016-2017,Kharif,Suryapet,Chivemla,Chililes,42,295
+52,2016-2017,Kharif,Suryapet,Garidepally,Chililes,1,0
+53,2016-2017,Kharif,Suryapet,Huzurnagar,Chililes,165,0
+54,2016-2017,Kharif,Suryapet,Jajireddygudem,Chililes,99,193
+55,2016-2017,Kharif,Suryapet,Kodad,Chililes,32,68
+56,2016-2017,Kharif,Suryapet,Maddirala,Chililes,,210
+57,2016-2017,Kharif,Suryapet,Mattampally,Chililes,360,598
+58,2016-2017,Kharif,Suryapet,Mellachervu,Chililes,1615,780
+59,2016-2017,Kharif,Suryapet,Mothey,Chililes,571,1007
+60,2016-2017,Kharif,Suryapet,Munagala,Chililes,46,40
+61,2016-2017,Kharif,Suryapet,Nadigudem,Chililes,60,72
+62,2016-2017,Kharif,Suryapet,Nagaram,Chililes,,81
+63,2016-2017,Kharif,Suryapet,Neredcherla,Chililes,88,16
+64,2016-2017,Kharif,Suryapet,Nutankal,Chililes,234,356
+65,2016-2017,Kharif,Suryapet,Palakeedu,Chililes,,58
+66,2016-2017,Kharif,Suryapet,Penpahad,Chililes,57,38
+67,2016-2017,Kharif,Suryapet,Suryapet,Chililes,18,33
+68,2016-2017,Kharif,Suryapet,Tirmalgiri,Chililes,15,0
+69,2016-2017,Kharif,Suryapet,Tungaturty,Chililes,19,160
+70,2016-2017,Kharif,Suryapet,Ananthagiri,Turemeric,,0
+71,2016-2017,Kharif,Suryapet,Athmakur,Turemeric,0,
+72,2016-2017,Kharif,Suryapet,Chilkur,Turemeric,0,0
+73,2016-2017,Kharif,Suryapet,Chinthalapalem,Turemeric,,3
+74,2016-2017,Kharif,Suryapet,Chivemla,Turemeric,0,0
+75,2016-2017,Kharif,Suryapet,Garidepally,Turemeric,0,0
+76,2016-2017,Kharif,Suryapet,Huzurnagar,Turemeric,0,0
+77,2016-2017,Kharif,Suryapet,Jajireddygudem,Turemeric,11,0
+78,2016-2017,Kharif,Suryapet,Kodad,Turemeric,0,
+79,2016-2017,Kharif,Suryapet,Maddirala,Turemeric,,0
+80,2016-2017,Kharif,Suryapet,Mattampally,Turemeric,0,
+81,2016-2017,Kharif,Suryapet,Mellachervu,Turemeric,2,0
+82,2016-2017,Kharif,Suryapet,Mothey,Turemeric,0,0
+83,2016-2017,Kharif,Suryapet,Munagala,Turemeric,0,0
+84,2016-2017,Kharif,Suryapet,Nadigudem,Turemeric,1,0
+85,2016-2017,Kharif,Suryapet,Nagaram,Turemeric,,
+86,2016-2017,Kharif,Suryapet,Neredcherla,Turemeric,0,0
+87,2016-2017,Kharif,Suryapet,Nutankal,Turemeric,29,0
+88,2016-2017,Kharif,Suryapet,Palakeedu,Turemeric,,0
+89,2016-2017,Kharif,Suryapet,Penpahad,Turemeric,0,0
+90,2016-2017,Kharif,Suryapet,Suryapet,Turemeric,0,0
+91,2016-2017,Kharif,Suryapet,Tirmalgiri,Turemeric,0,0
+92,2016-2017,Kharif,Suryapet,Tungaturty,Turemeric,1,0
+93,2016-2017,Kharif,Suryapet,Ananthagiri,Oil palm,,3
+94,2016-2017,Kharif,Suryapet,Athmakur,Oil palm,0,0
+95,2016-2017,Kharif,Suryapet,Chilkur,Oil palm,0,0
+96,2016-2017,Kharif,Suryapet,Chinthalapalem,Oil palm,,0
+97,2016-2017,Kharif,Suryapet,Chivemla,Oil palm,0,0
+98,2016-2017,Kharif,Suryapet,Garidepally,Oil palm,0,0
+99,2016-2017,Kharif,Suryapet,Huzurnagar,Oil palm,6,8
+100,2016-2017,Kharif,Suryapet,Jajireddygudem,Oil palm,0,0
+101,2016-2017,Kharif,Suryapet,Kodad,Oil palm,16,17
+102,2016-2017,Kharif,Suryapet,Maddirala,Oil palm,,0
+103,2016-2017,Kharif,Suryapet,Mattampally,Oil palm,0,0
+104,2016-2017,Kharif,Suryapet,Mellachervu,Oil palm,0,
+105,2016-2017,Kharif,Suryapet,Mothey,Oil palm,0,0
+106,2016-2017,Kharif,Suryapet,Munagala,Oil palm,11,0
+107,2016-2017,Kharif,Suryapet,Nadigudem,Oil palm,32,0
+108,2016-2017,Kharif,Suryapet,Nagaram,Oil palm,,
+109,2016-2017,Kharif,Suryapet,Neredcherla,Oil palm,0,0
+110,2016-2017,Kharif,Suryapet,Nutankal,Oil palm,0,0
+111,2016-2017,Kharif,Suryapet,Palakeedu,Oil palm,,0
+112,2016-2017,Kharif,Suryapet,Penpahad,Oil palm,0,0
+113,2016-2017,Kharif,Suryapet,Suryapet,Oil palm,0,0
+114,2016-2017,Kharif,Suryapet,Tirmalgiri,Oil palm,0,0
+115,2016-2017,Kharif,Suryapet,Tungaturty,Oil palm,0,0
+116,2016-2017,Kharif,Suryapet,Ananthagiri,Maize,,2
+117,2016-2017,Kharif,Suryapet,Athmakur,Maize,3,0
+118,2016-2017,Kharif,Suryapet,Chilkur,Maize,0,0
+119,2016-2017,Kharif,Suryapet,Chinthalapalem,Maize,,0
+120,2016-2017,Kharif,Suryapet,Chivemla,Maize,0,0
+121,2016-2017,Kharif,Suryapet,Garidepally,Maize,0,0
+122,2016-2017,Kharif,Suryapet,Huzurnagar,Maize,0,0
+123,2016-2017,Kharif,Suryapet,Jajireddygudem,Maize,1,0
+124,2016-2017,Kharif,Suryapet,Kodad,Maize,16,2
+125,2016-2017,Kharif,Suryapet,Maddirala,Maize,,0
+126,2016-2017,Kharif,Suryapet,Mattampally,Maize,0,0
+127,2016-2017,Kharif,Suryapet,Mellachervu,Maize,0,0
+128,2016-2017,Kharif,Suryapet,Mothey,Maize,5,0
+129,2016-2017,Kharif,Suryapet,Munagala,Maize,0,0
+130,2016-2017,Kharif,Suryapet,Nadigudem,Maize,9,0
+131,2016-2017,Kharif,Suryapet,Nagaram,Maize,,
+132,2016-2017,Kharif,Suryapet,Neredcherla,Maize,0,0
+133,2016-2017,Kharif,Suryapet,Nutankal,Maize,17,0
+134,2016-2017,Kharif,Suryapet,Palakeedu,Maize,,0
+135,2016-2017,Kharif,Suryapet,Penpahad,Maize,16,2
+136,2016-2017,Kharif,Suryapet,Suryapet,Maize,0,0
+137,2016-2017,Kharif,Suryapet,Tirmalgiri,Maize,66,35
+138,2016-2017,Kharif,Suryapet,Tungaturty,Maize,22,0
+139,2016-2017,Kharif,Suryapet,Ananthagiri,Green Gram,,1437
+140,2016-2017,Kharif,Suryapet,Athmakur,Green Gram,2437,2205
+141,2016-2017,Kharif,Suryapet,Chilkur,Green Gram,205,540
+142,2016-2017,Kharif,Suryapet,Chinthalapalem,Green Gram,,4
+143,2016-2017,Kharif,Suryapet,Chivemla,Green Gram,1841,1850
+144,2016-2017,Kharif,Suryapet,Garidepally,Green Gram,134,460
+145,2016-2017,Kharif,Suryapet,Huzurnagar,Green Gram,74,603
+146,2016-2017,Kharif,Suryapet,Jajireddygudem,Green Gram,1308,624
+147,2016-2017,Kharif,Suryapet,Kodad,Green Gram,441,987
+148,2016-2017,Kharif,Suryapet,Maddirala,Green Gram,,1839
+149,2016-2017,Kharif,Suryapet,Mattampally,Green Gram,33,195
+150,2016-2017,Kharif,Suryapet,Mellachervu,Green Gram,218,313
+151,2016-2017,Kharif,Suryapet,Mothey,Green Gram,1958,2480
+152,2016-2017,Kharif,Suryapet,Munagala,Green Gram,953,1085
+153,2016-2017,Kharif,Suryapet,Nadigudem,Green Gram,843,1362
+154,2016-2017,Kharif,Suryapet,Nagaram,Green Gram,,728
+155,2016-2017,Kharif,Suryapet,Neredcherla,Green Gram,126,163
+156,2016-2017,Kharif,Suryapet,Nutankal,Green Gram,3640,1577
+157,2016-2017,Kharif,Suryapet,Palakeedu,Green Gram,,91
+158,2016-2017,Kharif,Suryapet,Penpahad,Green Gram,1441,1432
+159,2016-2017,Kharif,Suryapet,Suryapet,Green Gram,1644,2276
+160,2016-2017,Kharif,Suryapet,Tirmalgiri,Green Gram,1030,776
+161,2016-2017,Kharif,Suryapet,Tungaturty,Green Gram,1830,849
+162,2016-2017,Kharif,Suryapet,Ananthagiri,Red Gram,,342
+163,2016-2017,Kharif,Suryapet,Athmakur,Red Gram,597,1094
+164,2016-2017,Kharif,Suryapet,Chilkur,Red Gram,4,302
+165,2016-2017,Kharif,Suryapet,Chinthalapalem,Red Gram,,131
+166,2016-2017,Kharif,Suryapet,Chivemla,Red Gram,930,998
+167,2016-2017,Kharif,Suryapet,Garidepally,Red Gram,54,270
+168,2016-2017,Kharif,Suryapet,Huzurnagar,Red Gram,42,300
+169,2016-2017,Kharif,Suryapet,Jajireddygudem,Red Gram,1121,1091
+170,2016-2017,Kharif,Suryapet,Kodad,Red Gram,294,714
+171,2016-2017,Kharif,Suryapet,Maddirala,Red Gram,,952
+172,2016-2017,Kharif,Suryapet,Mattampally,Red Gram,164,284
+173,2016-2017,Kharif,Suryapet,Mellachervu,Red Gram,412,412
+174,2016-2017,Kharif,Suryapet,Mothey,Red Gram,511,1211
+175,2016-2017,Kharif,Suryapet,Munagala,Red Gram,755,844
+176,2016-2017,Kharif,Suryapet,Nadigudem,Red Gram,426,1423
+177,2016-2017,Kharif,Suryapet,Nagaram,Red Gram,,959
+178,2016-2017,Kharif,Suryapet,Neredcherla,Red Gram,81,180
+179,2016-2017,Kharif,Suryapet,Nutankal,Red Gram,1011,1059
+180,2016-2017,Kharif,Suryapet,Palakeedu,Red Gram,,153
+181,2016-2017,Kharif,Suryapet,Penpahad,Red Gram,1182,1155
+182,2016-2017,Kharif,Suryapet,Suryapet,Red Gram,841,1429
+183,2016-2017,Kharif,Suryapet,Tirmalgiri,Red Gram,621,987
+184,2016-2017,Kharif,Suryapet,Tungaturty,Red Gram,573,503
+185,2016-2017,Kharif,Suryapet,Ananthagiri,Cotton,,102
+186,2016-2017,Kharif,Suryapet,Athmakur,Cotton,4262,3649
+187,2016-2017,Kharif,Suryapet,Chilkur,Cotton,0,1
+188,2016-2017,Kharif,Suryapet,Chinthalapalem,Cotton,,3079
+189,2016-2017,Kharif,Suryapet,Chivemla,Cotton,1619,1492
+190,2016-2017,Kharif,Suryapet,Garidepally,Cotton,590,115
+191,2016-2017,Kharif,Suryapet,Huzurnagar,Cotton,1897,3
+192,2016-2017,Kharif,Suryapet,Jajireddygudem,Cotton,2308,1042
+193,2016-2017,Kharif,Suryapet,Kodad,Cotton,143,88
+194,2016-2017,Kharif,Suryapet,Maddirala,Cotton,,1312
+195,2016-2017,Kharif,Suryapet,Mattampally,Cotton,1233,1503
+196,2016-2017,Kharif,Suryapet,Mellachervu,Cotton,7870,2480
+197,2016-2017,Kharif,Suryapet,Mothey,Cotton,3015,2340
+198,2016-2017,Kharif,Suryapet,Munagala,Cotton,2489,2158
+199,2016-2017,Kharif,Suryapet,Nadigudem,Cotton,1371,1193
+200,2016-2017,Kharif,Suryapet,Nagaram,Cotton,,2305
+201,2016-2017,Kharif,Suryapet,Neredcherla,Cotton,1026,293
+202,2016-2017,Kharif,Suryapet,Nutankal,Cotton,4435,1937
+203,2016-2017,Kharif,Suryapet,Palakeedu,Cotton,,764
+204,2016-2017,Kharif,Suryapet,Penpahad,Cotton,3087,2166
+205,2016-2017,Kharif,Suryapet,Suryapet,Cotton,2704,2741
+206,2016-2017,Kharif,Suryapet,Tirmalgiri,Cotton,3791,2006
+207,2016-2017,Kharif,Suryapet,Tungaturty,Cotton,1305,829
+208,2016-2017,Kharif,Suryapet,Ananthagiri,Ground nut,,5
+209,2016-2017,Kharif,Suryapet,Athmakur,Ground nut,373,210
+210,2016-2017,Kharif,Suryapet,Chilkur,Ground nut,0,0
+211,2016-2017,Kharif,Suryapet,Chinthalapalem,Ground nut,,0
+212,2016-2017,Kharif,Suryapet,Chivemla,Ground nut,468,458
+213,2016-2017,Kharif,Suryapet,Garidepally,Ground nut,15,42
+214,2016-2017,Kharif,Suryapet,Huzurnagar,Ground nut,0,0
+215,2016-2017,Kharif,Suryapet,Jajireddygudem,Ground nut,238,286
+216,2016-2017,Kharif,Suryapet,Kodad,Ground nut,2,0
+217,2016-2017,Kharif,Suryapet,Maddirala,Ground nut,,147
+218,2016-2017,Kharif,Suryapet,Mattampally,Ground nut,14,5
+219,2016-2017,Kharif,Suryapet,Mellachervu,Ground nut,0,0
+220,2016-2017,Kharif,Suryapet,Mothey,Ground nut,413,910
+221,2016-2017,Kharif,Suryapet,Munagala,Ground nut,86,115
+222,2016-2017,Kharif,Suryapet,Nadigudem,Ground nut,12,8
+223,2016-2017,Kharif,Suryapet,Nagaram,Ground nut,,42
+224,2016-2017,Kharif,Suryapet,Neredcherla,Ground nut,14,0
+225,2016-2017,Kharif,Suryapet,Nutankal,Ground nut,795,205
+226,2016-2017,Kharif,Suryapet,Palakeedu,Ground nut,,0
+227,2016-2017,Kharif,Suryapet,Penpahad,Ground nut,436,402
+228,2016-2017,Kharif,Suryapet,Suryapet,Ground nut,170,51
+229,2016-2017,Kharif,Suryapet,Tirmalgiri,Ground nut,112,0
+230,2016-2017,Kharif,Suryapet,Tungaturty,Ground nut,387,171
+231,2016-2017,Kharif,Suryapet,Ananthagiri,Castor,,0
+232,2016-2017,Kharif,Suryapet,Athmakur,Castor,2,0
+233,2016-2017,Kharif,Suryapet,Chilkur,Castor,0,0
+234,2016-2017,Kharif,Suryapet,Chinthalapalem,Castor,,0
+235,2016-2017,Kharif,Suryapet,Chivemla,Castor,0,0
+236,2016-2017,Kharif,Suryapet,Garidepally,Castor,0,0
+237,2016-2017,Kharif,Suryapet,Huzurnagar,Castor,0,0
+238,2016-2017,Kharif,Suryapet,Jajireddygudem,Castor,10,2
+239,2016-2017,Kharif,Suryapet,Kodad,Castor,0,0
+240,2016-2017,Kharif,Suryapet,Maddirala,Castor,,0
+241,2016-2017,Kharif,Suryapet,Mattampally,Castor,0,0
+242,2016-2017,Kharif,Suryapet,Mellachervu,Castor,2,0
+243,2016-2017,Kharif,Suryapet,Mothey,Castor,0,0
+244,2016-2017,Kharif,Suryapet,Munagala,Castor,0,0
+245,2016-2017,Kharif,Suryapet,Nadigudem,Castor,0,
+246,2016-2017,Kharif,Suryapet,Nagaram,Castor,,0
+247,2016-2017,Kharif,Suryapet,Neredcherla,Castor,0,0
+248,2016-2017,Kharif,Suryapet,Nutankal,Castor,0,0
+249,2016-2017,Kharif,Suryapet,Palakeedu,Castor,,0
+250,2016-2017,Kharif,Suryapet,Penpahad,Castor,7,0
+251,2016-2017,Kharif,Suryapet,Suryapet,Castor,0,0
+252,2016-2017,Kharif,Suryapet,Tirmalgiri,Castor,3,0
+253,2016-2017,Kharif,Suryapet,Tungaturty,Castor,0,0
+254,2016-2017,Kharif,Suryapet,Ananthagiri,Sesamum,,0
+255,2016-2017,Kharif,Suryapet,Athmakur,Sesamum,0,0
+256,2016-2017,Kharif,Suryapet,Chilkur,Sesamum,0,0
+257,2016-2017,Kharif,Suryapet,Chinthalapalem,Sesamum,,0
+258,2016-2017,Kharif,Suryapet,Chivemla,Sesamum,0,0
+259,2016-2017,Kharif,Suryapet,Garidepally,Sesamum,0,0
+260,2016-2017,Kharif,Suryapet,Huzurnagar,Sesamum,0,0
+261,2016-2017,Kharif,Suryapet,Jajireddygudem,Sesamum,27,10
+262,2016-2017,Kharif,Suryapet,Kodad,Sesamum,0,0
+263,2016-2017,Kharif,Suryapet,Maddirala,Sesamum,,0
+264,2016-2017,Kharif,Suryapet,Mattampally,Sesamum,0,0
+265,2016-2017,Kharif,Suryapet,Mellachervu,Sesamum,0,0
+266,2016-2017,Kharif,Suryapet,Mothey,Sesamum,0,0
+267,2016-2017,Kharif,Suryapet,Munagala,Sesamum,0,0
+268,2016-2017,Kharif,Suryapet,Nadigudem,Sesamum,0,0
+269,2016-2017,Kharif,Suryapet,Nagaram,Sesamum,,17
+270,2016-2017,Kharif,Suryapet,Neredcherla,Sesamum,0,0
+271,2016-2017,Kharif,Suryapet,Nutankal,Sesamum,6,0
+272,2016-2017,Kharif,Suryapet,Palakeedu,Sesamum,,0
+273,2016-2017,Kharif,Suryapet,Penpahad,Sesamum,0,0
+274,2016-2017,Kharif,Suryapet,Suryapet,Sesamum,0,0
+275,2016-2017,Kharif,Suryapet,Tirmalgiri,Sesamum,231,88
+276,2016-2017,Kharif,Suryapet,Tungaturty,Sesamum,61,4
+277,2016-2017,Kharif,Suryapet,Ananthagiri,Soyabeen,,0
+278,2016-2017,Kharif,Suryapet,Athmakur,Soyabeen,0,0
+279,2016-2017,Kharif,Suryapet,Chilkur,Soyabeen,0,0
+280,2016-2017,Kharif,Suryapet,Chinthalapalem,Soyabeen,,0
+281,2016-2017,Kharif,Suryapet,Chivemla,Soyabeen,0,0
+282,2016-2017,Kharif,Suryapet,Garidepally,Soyabeen,0,0
+283,2016-2017,Kharif,Suryapet,Huzurnagar,Soyabeen,0,0
+284,2016-2017,Kharif,Suryapet,Jajireddygudem,Soyabeen,0,0
+285,2016-2017,Kharif,Suryapet,Kodad,Soyabeen,0,0
+286,2016-2017,Kharif,Suryapet,Maddirala,Soyabeen,,0
+287,2016-2017,Kharif,Suryapet,Mattampally,Soyabeen,0,0
+288,2016-2017,Kharif,Suryapet,Mellachervu,Soyabeen,0,0
+289,2016-2017,Kharif,Suryapet,Mothey,Soyabeen,0,0
+290,2016-2017,Kharif,Suryapet,Munagala,Soyabeen,0,0
+291,2016-2017,Kharif,Suryapet,Nadigudem,Soyabeen,0,
+292,2016-2017,Kharif,Suryapet,Nagaram,Soyabeen,,0
+293,2016-2017,Kharif,Suryapet,Neredcherla,Soyabeen,0,0
+294,2016-2017,Kharif,Suryapet,Nutankal,Soyabeen,0,0
+295,2016-2017,Kharif,Suryapet,Palakeedu,Soyabeen,,0
+296,2016-2017,Kharif,Suryapet,Penpahad,Soyabeen,0,0
+297,2016-2017,Kharif,Suryapet,Suryapet,Soyabeen,0,0
+298,2016-2017,Kharif,Suryapet,Tirmalgiri,Soyabeen,0,0
+299,2016-2017,Kharif,Suryapet,Tungaturty,Soyabeen,1,0
+300,2016-2017,Kharif,Suryapet,Ananthagiri,Total,0,4820
+301,2016-2017,Kharif,Suryapet,Athmakur,Total,10043,9304
+302,2016-2017,Kharif,Suryapet,Chilkur,Total,6889,7090
+303,2016-2017,Kharif,Suryapet,Chinthalapalem,Total,0,5154
+304,2016-2017,Kharif,Suryapet,Chivemla,Total,6124,6274
+305,2016-2017,Kharif,Suryapet,Garidepally,Total,8394,9928
+306,2016-2017,Kharif,Suryapet,Huzurnagar,Total,7985,7325
+307,2016-2017,Kharif,Suryapet,Jajireddygudem,Total,6784,4367
+308,2016-2017,Kharif,Suryapet,Kodad,Total,9316,6290
+309,2016-2017,Kharif,Suryapet,Maddirala,Total,0,5746
+310,2016-2017,Kharif,Suryapet,Mattampally,Total,5426,6778
+311,2016-2017,Kharif,Suryapet,Mellachervu,Total,12359,5549
+312,2016-2017,Kharif,Suryapet,Mothey,Total,8401,9000
+313,2016-2017,Kharif,Suryapet,Munagala,Total,7776,7859
+314,2016-2017,Kharif,Suryapet,Nadigudem,Total,7217,6715
+315,2016-2017,Kharif,Suryapet,Nagaram,Total,0,5413
+316,2016-2017,Kharif,Suryapet,Neredcherla,Total,9692,8283
+317,2016-2017,Kharif,Suryapet,Nutankal,Total,12396,6398
+318,2016-2017,Kharif,Suryapet,Palakeedu,Total,0,4257
+319,2016-2017,Kharif,Suryapet,Penpahad,Total,9814,7902
+320,2016-2017,Kharif,Suryapet,Suryapet,Total,8953,9038
+321,2016-2017,Kharif,Suryapet,Tirmalgiri,Total,7156,4808
+322,2016-2017,Kharif,Suryapet,Tungaturty,Total,5633,3682

@@ -1,0 +1,415 @@
+record_number,year,season,district_name,mandal_name,crop,normal_area,actual_area
+1,2016-2017,Kharif,Adilabad,Adilabad R,Rice,45,12
+2,2016-2017,Kharif,Adilabad,Adilabad U,Rice,45,13
+3,2016-2017,Kharif,Adilabad,Mavala,Rice,45,5
+4,2016-2017,Kharif,Adilabad,Jainad,Rice,2,0
+5,2016-2017,Kharif,Adilabad,Bela,Rice,0,3
+6,2016-2017,Kharif,Adilabad,Ichoda,Rice,92,38
+7,2016-2017,Kharif,Adilabad,Sirikonda,Rice,92,19
+8,2016-2017,Kharif,Adilabad,Gudihathnoor,Rice,33,0
+9,2016-2017,Kharif,Adilabad,Bheempur,Rice,14,0
+10,2016-2017,Kharif,Adilabad,Tamsi,Rice,14,2
+11,2016-2017,Kharif,Adilabad,Talamadugu,Rice,46,17
+12,2016-2017,Kharif,Adilabad,Boath,Rice,23,6
+13,2016-2017,Kharif,Adilabad,Bazarhathnoor,Rice,62,18
+14,2016-2017,Kharif,Adilabad,Neradigonda,Rice,75,39
+15,2016-2017,Kharif,Adilabad,Utnoor,Rice,577,677
+16,2016-2017,Kharif,Adilabad,Inderavelly,Rice,143,67
+17,2016-2017,Kharif,Adilabad,Narnoor,Rice,137,49
+18,2016-2017,Kharif,Adilabad,Gadiguda,Rice,137,12
+19,2016-2017,Kharif,Adilabad,Adilabad R,Jowar,1049,255
+20,2016-2017,Kharif,Adilabad,Adilabad U,Jowar,0,0
+21,2016-2017,Kharif,Adilabad,Mavala,Jowar,0,13
+22,2016-2017,Kharif,Adilabad,Jainad,Jowar,771,10
+23,2016-2017,Kharif,Adilabad,Bela,Jowar,954,322
+24,2016-2017,Kharif,Adilabad,Ichoda,Jowar,989,311
+25,2016-2017,Kharif,Adilabad,Sirikonda,Jowar,0,482
+26,2016-2017,Kharif,Adilabad,Gudihathnoor,Jowar,848,0
+27,2016-2017,Kharif,Adilabad,Bheempur,Jowar,0,187
+28,2016-2017,Kharif,Adilabad,Tamsi,Jowar,1226,152
+29,2016-2017,Kharif,Adilabad,Talamadugu,Jowar,592,40
+30,2016-2017,Kharif,Adilabad,Boath,Jowar,309,48
+31,2016-2017,Kharif,Adilabad,Bazarhathnoor,Jowar,298,27
+32,2016-2017,Kharif,Adilabad,Neradigonda,Jowar,229,60
+33,2016-2017,Kharif,Adilabad,Utnoor,Jowar,1263,1472
+34,2016-2017,Kharif,Adilabad,Inderavelly,Jowar,1682,1027
+35,2016-2017,Kharif,Adilabad,Narnoor,Jowar,1336,323
+36,2016-2017,Kharif,Adilabad,Gadiguda,Jowar,1336,211
+37,2016-2017,Kharif,Adilabad,Adilabad R,Maize,16,0
+38,2016-2017,Kharif,Adilabad,Adilabad U,Maize,0,0
+39,2016-2017,Kharif,Adilabad,Mavala,Maize,0,0
+40,2016-2017,Kharif,Adilabad,Jainad,Maize,0,0
+41,2016-2017,Kharif,Adilabad,Bela,Maize,0,0
+42,2016-2017,Kharif,Adilabad,Ichoda,Maize,14,25
+43,2016-2017,Kharif,Adilabad,Sirikonda,Maize,0,21
+44,2016-2017,Kharif,Adilabad,Gudihathnoor,Maize,22,0
+45,2016-2017,Kharif,Adilabad,Bheempur,Maize,0,1
+46,2016-2017,Kharif,Adilabad,Tamsi,Maize,2,2
+47,2016-2017,Kharif,Adilabad,Talamadugu,Maize,10,20
+48,2016-2017,Kharif,Adilabad,Boath,Maize,21,23
+49,2016-2017,Kharif,Adilabad,Bazarhathnoor,Maize,82,36
+50,2016-2017,Kharif,Adilabad,Neradigonda,Maize,8,40
+51,2016-2017,Kharif,Adilabad,Utnoor,Maize,138,230
+52,2016-2017,Kharif,Adilabad,Inderavelly,Maize,41,52
+53,2016-2017,Kharif,Adilabad,Narnoor,Maize,144,62
+54,2016-2017,Kharif,Adilabad,Gadiguda,Maize,144,28
+55,2016-2017,Kharif,Adilabad,Adilabad R,Green Gram,99,121
+56,2016-2017,Kharif,Adilabad,Adilabad U,Green Gram,0,0
+57,2016-2017,Kharif,Adilabad,Mavala,Green Gram,0,18
+58,2016-2017,Kharif,Adilabad,Jainad,Green Gram,2,16
+59,2016-2017,Kharif,Adilabad,Bela,Green Gram,8,108
+60,2016-2017,Kharif,Adilabad,Ichoda,Green Gram,123,103
+61,2016-2017,Kharif,Adilabad,Sirikonda,Green Gram,0,102
+62,2016-2017,Kharif,Adilabad,Gudihathnoor,Green Gram,52,175
+63,2016-2017,Kharif,Adilabad,Bheempur,Green Gram,0,166
+64,2016-2017,Kharif,Adilabad,Tamsi,Green Gram,94,83
+65,2016-2017,Kharif,Adilabad,Talamadugu,Green Gram,45,113
+66,2016-2017,Kharif,Adilabad,Boath,Green Gram,96,119
+67,2016-2017,Kharif,Adilabad,Bazarhathnoor,Green Gram,73,14
+68,2016-2017,Kharif,Adilabad,Neradigonda,Green Gram,109,200
+69,2016-2017,Kharif,Adilabad,Utnoor,Green Gram,312,370
+70,2016-2017,Kharif,Adilabad,Inderavelly,Green Gram,219,209
+71,2016-2017,Kharif,Adilabad,Narnoor,Green Gram,265,276
+72,2016-2017,Kharif,Adilabad,Gadiguda,Green Gram,265,74
+73,2016-2017,Kharif,Adilabad,Adilabad R,Black Gram,114,38
+74,2016-2017,Kharif,Adilabad,Adilabad U,Black Gram,0,0
+75,2016-2017,Kharif,Adilabad,Mavala,Black Gram,0,15
+76,2016-2017,Kharif,Adilabad,Jainad,Black Gram,19,60
+77,2016-2017,Kharif,Adilabad,Bela,Black Gram,6,124
+78,2016-2017,Kharif,Adilabad,Ichoda,Black Gram,161,114
+79,2016-2017,Kharif,Adilabad,Sirikonda,Black Gram,0,85
+80,2016-2017,Kharif,Adilabad,Gudihathnoor,Black Gram,56,572
+81,2016-2017,Kharif,Adilabad,Bheempur,Black Gram,0,245
+82,2016-2017,Kharif,Adilabad,Tamsi,Black Gram,92,112
+83,2016-2017,Kharif,Adilabad,Talamadugu,Black Gram,46,164
+84,2016-2017,Kharif,Adilabad,Boath,Black Gram,208,175
+85,2016-2017,Kharif,Adilabad,Bazarhathnoor,Black Gram,265,40
+86,2016-2017,Kharif,Adilabad,Neradigonda,Black Gram,132,202
+87,2016-2017,Kharif,Adilabad,Utnoor,Black Gram,558,515
+88,2016-2017,Kharif,Adilabad,Inderavelly,Black Gram,315,272
+89,2016-2017,Kharif,Adilabad,Narnoor,Black Gram,378,345
+90,2016-2017,Kharif,Adilabad,Gadiguda,Black Gram,378,107
+91,2016-2017,Kharif,Adilabad,Adilabad R,Red Gram,2046,2550
+92,2016-2017,Kharif,Adilabad,Adilabad U,Red Gram,0,32
+93,2016-2017,Kharif,Adilabad,Mavala,Red Gram,0,135
+94,2016-2017,Kharif,Adilabad,Jainad,Red Gram,1337,2936
+95,2016-2017,Kharif,Adilabad,Bela,Red Gram,1463,2126
+96,2016-2017,Kharif,Adilabad,Ichoda,Red Gram,1059,1107
+97,2016-2017,Kharif,Adilabad,Sirikonda,Red Gram,0,605
+98,2016-2017,Kharif,Adilabad,Gudihathnoor,Red Gram,626,1880
+99,2016-2017,Kharif,Adilabad,Bheempur,Red Gram,0,1492
+100,2016-2017,Kharif,Adilabad,Tamsi,Red Gram,1634,968
+101,2016-2017,Kharif,Adilabad,Talamadugu,Red Gram,1064,110
+102,2016-2017,Kharif,Adilabad,Boath,Red Gram,842,805
+103,2016-2017,Kharif,Adilabad,Bazarhathnoor,Red Gram,1065,1400
+104,2016-2017,Kharif,Adilabad,Neradigonda,Red Gram,668,1030
+105,2016-2017,Kharif,Adilabad,Utnoor,Red Gram,1318,1642
+106,2016-2017,Kharif,Adilabad,Inderavelly,Red Gram,1005,704
+107,2016-2017,Kharif,Adilabad,Narnoor,Red Gram,1142,545
+108,2016-2017,Kharif,Adilabad,Gadiguda,Red Gram,1142,733
+109,2016-2017,Kharif,Adilabad,Adilabad R,Cow Gram,0,0
+110,2016-2017,Kharif,Adilabad,Adilabad U,Cow Gram,0,0
+111,2016-2017,Kharif,Adilabad,Mavala,Cow Gram,0,0
+112,2016-2017,Kharif,Adilabad,Jainad,Cow Gram,0,0
+113,2016-2017,Kharif,Adilabad,Bela,Cow Gram,0,0
+114,2016-2017,Kharif,Adilabad,Ichoda,Cow Gram,0,0
+115,2016-2017,Kharif,Adilabad,Sirikonda,Cow Gram,0,0
+116,2016-2017,Kharif,Adilabad,Gudihathnoor,Cow Gram,0,0
+117,2016-2017,Kharif,Adilabad,Bheempur,Cow Gram,0,0
+118,2016-2017,Kharif,Adilabad,Tamsi,Cow Gram,0,0
+119,2016-2017,Kharif,Adilabad,Talamadugu,Cow Gram,5,13
+120,2016-2017,Kharif,Adilabad,Boath,Cow Gram,0,3
+121,2016-2017,Kharif,Adilabad,Bazarhathnoor,Cow Gram,0,0
+122,2016-2017,Kharif,Adilabad,Neradigonda,Cow Gram,0,0
+123,2016-2017,Kharif,Adilabad,Utnoor,Cow Gram,2,6
+124,2016-2017,Kharif,Adilabad,Inderavelly,Cow Gram,2,5
+125,2016-2017,Kharif,Adilabad,Narnoor,Cow Gram,5,5
+126,2016-2017,Kharif,Adilabad,Gadiguda,Cow Gram,5,0
+127,2016-2017,Kharif,Adilabad,Adilabad R,Other Pulses,0,0
+128,2016-2017,Kharif,Adilabad,Adilabad U,Other Pulses,0,0
+129,2016-2017,Kharif,Adilabad,Mavala,Other Pulses,0,0
+130,2016-2017,Kharif,Adilabad,Jainad,Other Pulses,0,0
+131,2016-2017,Kharif,Adilabad,Bela,Other Pulses,0,0
+132,2016-2017,Kharif,Adilabad,Ichoda,Other Pulses,0,0
+133,2016-2017,Kharif,Adilabad,Sirikonda,Other Pulses,0,0
+134,2016-2017,Kharif,Adilabad,Gudihathnoor,Other Pulses,0,0
+135,2016-2017,Kharif,Adilabad,Bheempur,Other Pulses,0,0
+136,2016-2017,Kharif,Adilabad,Tamsi,Other Pulses,0,0
+137,2016-2017,Kharif,Adilabad,Talamadugu,Other Pulses,0,0
+138,2016-2017,Kharif,Adilabad,Boath,Other Pulses,0,0
+139,2016-2017,Kharif,Adilabad,Bazarhathnoor,Other Pulses,0,0
+140,2016-2017,Kharif,Adilabad,Neradigonda,Other Pulses,0,0
+141,2016-2017,Kharif,Adilabad,Utnoor,Other Pulses,0,0
+142,2016-2017,Kharif,Adilabad,Inderavelly,Other Pulses,0,3
+143,2016-2017,Kharif,Adilabad,Narnoor,Other Pulses,0,0
+144,2016-2017,Kharif,Adilabad,Gadiguda,Other Pulses,0,0
+145,2016-2017,Kharif,Adilabad,Adilabad R,Chillies,16,0
+146,2016-2017,Kharif,Adilabad,Adilabad U,Chillies,0,61
+147,2016-2017,Kharif,Adilabad,Mavala,Chillies,0,6
+148,2016-2017,Kharif,Adilabad,Jainad,Chillies,5,10
+149,2016-2017,Kharif,Adilabad,Bela,Chillies,33,7
+150,2016-2017,Kharif,Adilabad,Ichoda,Chillies,14,90
+151,2016-2017,Kharif,Adilabad,Sirikonda,Chillies,0,2
+152,2016-2017,Kharif,Adilabad,Gudihathnoor,Chillies,9,0
+153,2016-2017,Kharif,Adilabad,Bheempur,Chillies,0,2
+154,2016-2017,Kharif,Adilabad,Tamsi,Chillies,13,2
+155,2016-2017,Kharif,Adilabad,Talamadugu,Chillies,23,12
+156,2016-2017,Kharif,Adilabad,Boath,Chillies,38,5
+157,2016-2017,Kharif,Adilabad,Bazarhathnoor,Chillies,4,0
+158,2016-2017,Kharif,Adilabad,Neradigonda,Chillies,2,21
+159,2016-2017,Kharif,Adilabad,Utnoor,Chillies,0,15
+160,2016-2017,Kharif,Adilabad,Inderavelly,Chillies,11,5
+161,2016-2017,Kharif,Adilabad,Narnoor,Chillies,6,14
+162,2016-2017,Kharif,Adilabad,Gadiguda,Chillies,6,14
+163,2016-2017,Kharif,Adilabad,Adilabad R,Turmeric,0,0
+164,2016-2017,Kharif,Adilabad,Adilabad U,Turmeric,0,14
+165,2016-2017,Kharif,Adilabad,Mavala,Turmeric,0,0
+166,2016-2017,Kharif,Adilabad,Jainad,Turmeric,1,14
+167,2016-2017,Kharif,Adilabad,Bela,Turmeric,0,5
+168,2016-2017,Kharif,Adilabad,Ichoda,Turmeric,1,14
+169,2016-2017,Kharif,Adilabad,Sirikonda,Turmeric,0,1
+170,2016-2017,Kharif,Adilabad,Gudihathnoor,Turmeric,0,0
+171,2016-2017,Kharif,Adilabad,Bheempur,Turmeric,0,42
+172,2016-2017,Kharif,Adilabad,Tamsi,Turmeric,0,35
+173,2016-2017,Kharif,Adilabad,Talamadugu,Turmeric,0,20
+174,2016-2017,Kharif,Adilabad,Boath,Turmeric,9,8
+175,2016-2017,Kharif,Adilabad,Bazarhathnoor,Turmeric,0,0
+176,2016-2017,Kharif,Adilabad,Neradigonda,Turmeric,6,21
+177,2016-2017,Kharif,Adilabad,Utnoor,Turmeric,0,4
+178,2016-2017,Kharif,Adilabad,Inderavelly,Turmeric,0,0
+179,2016-2017,Kharif,Adilabad,Narnoor,Turmeric,0,0
+180,2016-2017,Kharif,Adilabad,Gadiguda,Turmeric,0,0
+181,2016-2017,Kharif,Adilabad,Adilabad R,Sugarcane,0,0
+182,2016-2017,Kharif,Adilabad,Adilabad U,Sugarcane,0,0
+183,2016-2017,Kharif,Adilabad,Mavala,Sugarcane,0,0
+184,2016-2017,Kharif,Adilabad,Jainad,Sugarcane,1,0
+185,2016-2017,Kharif,Adilabad,Bela,Sugarcane,0,0
+186,2016-2017,Kharif,Adilabad,Ichoda,Sugarcane,0,0
+187,2016-2017,Kharif,Adilabad,Sirikonda,Sugarcane,0,0
+188,2016-2017,Kharif,Adilabad,Gudihathnoor,Sugarcane,0,0
+189,2016-2017,Kharif,Adilabad,Bheempur,Sugarcane,0,0
+190,2016-2017,Kharif,Adilabad,Tamsi,Sugarcane,0,0
+191,2016-2017,Kharif,Adilabad,Talamadugu,Sugarcane,0,0
+192,2016-2017,Kharif,Adilabad,Boath,Sugarcane,0,0
+193,2016-2017,Kharif,Adilabad,Bazarhathnoor,Sugarcane,0,0
+194,2016-2017,Kharif,Adilabad,Neradigonda,Sugarcane,0,0
+195,2016-2017,Kharif,Adilabad,Utnoor,Sugarcane,0,1
+196,2016-2017,Kharif,Adilabad,Inderavelly,Sugarcane,0,1
+197,2016-2017,Kharif,Adilabad,Narnoor,Sugarcane,0,6
+198,2016-2017,Kharif,Adilabad,Gadiguda,Sugarcane,0,6
+199,2016-2017,Kharif,Adilabad,Adilabad R,Onions,0,0
+200,2016-2017,Kharif,Adilabad,Adilabad U,Onions,0,0
+201,2016-2017,Kharif,Adilabad,Mavala,Onions,0,0
+202,2016-2017,Kharif,Adilabad,Jainad,Onions,0,0
+203,2016-2017,Kharif,Adilabad,Bela,Onions,0,0
+204,2016-2017,Kharif,Adilabad,Ichoda,Onions,0,4
+205,2016-2017,Kharif,Adilabad,Sirikonda,Onions,0,0
+206,2016-2017,Kharif,Adilabad,Gudihathnoor,Onions,0,0
+207,2016-2017,Kharif,Adilabad,Bheempur,Onions,0,0
+208,2016-2017,Kharif,Adilabad,Tamsi,Onions,0,0
+209,2016-2017,Kharif,Adilabad,Talamadugu,Onions,0,0
+210,2016-2017,Kharif,Adilabad,Boath,Onions,0,0
+211,2016-2017,Kharif,Adilabad,Bazarhathnoor,Onions,0,0
+212,2016-2017,Kharif,Adilabad,Neradigonda,Onions,0,0
+213,2016-2017,Kharif,Adilabad,Utnoor,Onions,0,0
+214,2016-2017,Kharif,Adilabad,Inderavelly,Onions,0,0
+215,2016-2017,Kharif,Adilabad,Narnoor,Onions,0,0
+216,2016-2017,Kharif,Adilabad,Gadiguda,Onions,0,0
+217,2016-2017,Kharif,Adilabad,Adilabad R,Other Food Crops,183,147
+218,2016-2017,Kharif,Adilabad,Adilabad U,Other Food Crops,0,0
+219,2016-2017,Kharif,Adilabad,Mavala,Other Food Crops,0,41
+220,2016-2017,Kharif,Adilabad,Jainad,Other Food Crops,37,19
+221,2016-2017,Kharif,Adilabad,Bela,Other Food Crops,60,45
+222,2016-2017,Kharif,Adilabad,Ichoda,Other Food Crops,354,372
+223,2016-2017,Kharif,Adilabad,Sirikonda,Other Food Crops,0,6
+224,2016-2017,Kharif,Adilabad,Gudihathnoor,Other Food Crops,974,0
+225,2016-2017,Kharif,Adilabad,Bheempur,Other Food Crops,0,12
+226,2016-2017,Kharif,Adilabad,Tamsi,Other Food Crops,16,18
+227,2016-2017,Kharif,Adilabad,Talamadugu,Other Food Crops,94,47
+228,2016-2017,Kharif,Adilabad,Boath,Other Food Crops,74,60
+229,2016-2017,Kharif,Adilabad,Bazarhathnoor,Other Food Crops,129,8
+230,2016-2017,Kharif,Adilabad,Neradigonda,Other Food Crops,53,70
+231,2016-2017,Kharif,Adilabad,Utnoor,Other Food Crops,651,401
+232,2016-2017,Kharif,Adilabad,Inderavelly,Other Food Crops,1294,1157
+233,2016-2017,Kharif,Adilabad,Narnoor,Other Food Crops,71,166
+234,2016-2017,Kharif,Adilabad,Gadiguda,Other Food Crops,71,101
+235,2016-2017,Kharif,Adilabad,Adilabad R,Cotton,11701,8845
+236,2016-2017,Kharif,Adilabad,Adilabad U,Cotton,0,59
+237,2016-2017,Kharif,Adilabad,Mavala,Cotton,0,777
+238,2016-2017,Kharif,Adilabad,Jainad,Cotton,14849,11753
+239,2016-2017,Kharif,Adilabad,Bela,Cotton,11326,9925
+240,2016-2017,Kharif,Adilabad,Ichoda,Cotton,9226,6909
+241,2016-2017,Kharif,Adilabad,Sirikonda,Cotton,0,2503
+242,2016-2017,Kharif,Adilabad,Gudihathnoor,Cotton,6786,4300
+243,2016-2017,Kharif,Adilabad,Bheempur,Cotton,0,5785
+244,2016-2017,Kharif,Adilabad,Tamsi,Cotton,13796,3862
+245,2016-2017,Kharif,Adilabad,Talamadugu,Cotton,12007,11820
+246,2016-2017,Kharif,Adilabad,Boath,Cotton,9991,7860
+247,2016-2017,Kharif,Adilabad,Bazarhathnoor,Cotton,6937,6082
+248,2016-2017,Kharif,Adilabad,Neradigonda,Cotton,6032,4395
+249,2016-2017,Kharif,Adilabad,Utnoor,Cotton,6906,7000
+250,2016-2017,Kharif,Adilabad,Inderavelly,Cotton,8424,6050
+251,2016-2017,Kharif,Adilabad,Narnoor,Cotton,10717,4054
+252,2016-2017,Kharif,Adilabad,Gadiguda,Cotton,10717,6202
+253,2016-2017,Kharif,Adilabad,Adilabad R,Groundnut,0,0
+254,2016-2017,Kharif,Adilabad,Adilabad U,Groundnut,0,0
+255,2016-2017,Kharif,Adilabad,Mavala,Groundnut,0,0
+256,2016-2017,Kharif,Adilabad,Jainad,Groundnut,0,0
+257,2016-2017,Kharif,Adilabad,Bela,Groundnut,0,0
+258,2016-2017,Kharif,Adilabad,Ichoda,Groundnut,0,0
+259,2016-2017,Kharif,Adilabad,Sirikonda,Groundnut,0,0
+260,2016-2017,Kharif,Adilabad,Gudihathnoor,Groundnut,0,0
+261,2016-2017,Kharif,Adilabad,Bheempur,Groundnut,0,0
+262,2016-2017,Kharif,Adilabad,Tamsi,Groundnut,0,0
+263,2016-2017,Kharif,Adilabad,Talamadugu,Groundnut,0,0
+264,2016-2017,Kharif,Adilabad,Boath,Groundnut,0,0
+265,2016-2017,Kharif,Adilabad,Bazarhathnoor,Groundnut,0,0
+266,2016-2017,Kharif,Adilabad,Neradigonda,Groundnut,0,0
+267,2016-2017,Kharif,Adilabad,Utnoor,Groundnut,0,0
+268,2016-2017,Kharif,Adilabad,Inderavelly,Groundnut,0,0
+269,2016-2017,Kharif,Adilabad,Narnoor,Groundnut,0,0
+270,2016-2017,Kharif,Adilabad,Gadiguda,Groundnut,0,0
+271,2016-2017,Kharif,Adilabad,Adilabad R,Sesamum,20,0
+272,2016-2017,Kharif,Adilabad,Adilabad U,Sesamum,0,0
+273,2016-2017,Kharif,Adilabad,Mavala,Sesamum,0,0
+274,2016-2017,Kharif,Adilabad,Jainad,Sesamum,0,0
+275,2016-2017,Kharif,Adilabad,Bela,Sesamum,3,3
+276,2016-2017,Kharif,Adilabad,Ichoda,Sesamum,1,5
+277,2016-2017,Kharif,Adilabad,Sirikonda,Sesamum,0,0
+278,2016-2017,Kharif,Adilabad,Gudihathnoor,Sesamum,14,0
+279,2016-2017,Kharif,Adilabad,Bheempur,Sesamum,0,0
+280,2016-2017,Kharif,Adilabad,Tamsi,Sesamum,3,0
+281,2016-2017,Kharif,Adilabad,Talamadugu,Sesamum,20,0
+282,2016-2017,Kharif,Adilabad,Boath,Sesamum,5,0
+283,2016-2017,Kharif,Adilabad,Bazarhathnoor,Sesamum,0,0
+284,2016-2017,Kharif,Adilabad,Neradigonda,Sesamum,0,0
+285,2016-2017,Kharif,Adilabad,Utnoor,Sesamum,3,6
+286,2016-2017,Kharif,Adilabad,Inderavelly,Sesamum,2,0
+287,2016-2017,Kharif,Adilabad,Narnoor,Sesamum,50,26
+288,2016-2017,Kharif,Adilabad,Gadiguda,Sesamum,50,9
+289,2016-2017,Kharif,Adilabad,Adilabad R,Sunflower,0,0
+290,2016-2017,Kharif,Adilabad,Adilabad U,Sunflower,0,0
+291,2016-2017,Kharif,Adilabad,Mavala,Sunflower,0,0
+292,2016-2017,Kharif,Adilabad,Jainad,Sunflower,0,0
+293,2016-2017,Kharif,Adilabad,Bela,Sunflower,0,0
+294,2016-2017,Kharif,Adilabad,Ichoda,Sunflower,0,0
+295,2016-2017,Kharif,Adilabad,Sirikonda,Sunflower,0,0
+296,2016-2017,Kharif,Adilabad,Gudihathnoor,Sunflower,0,0
+297,2016-2017,Kharif,Adilabad,Bheempur,Sunflower,0,0
+298,2016-2017,Kharif,Adilabad,Tamsi,Sunflower,0,0
+299,2016-2017,Kharif,Adilabad,Talamadugu,Sunflower,0,0
+300,2016-2017,Kharif,Adilabad,Boath,Sunflower,0,0
+301,2016-2017,Kharif,Adilabad,Bazarhathnoor,Sunflower,0,0
+302,2016-2017,Kharif,Adilabad,Neradigonda,Sunflower,0,0
+303,2016-2017,Kharif,Adilabad,Utnoor,Sunflower,0,0
+304,2016-2017,Kharif,Adilabad,Inderavelly,Sunflower,0,0
+305,2016-2017,Kharif,Adilabad,Narnoor,Sunflower,0,0
+306,2016-2017,Kharif,Adilabad,Gadiguda,Sunflower,0,0
+307,2016-2017,Kharif,Adilabad,Adilabad R,Castor,0,0
+308,2016-2017,Kharif,Adilabad,Adilabad U,Castor,0,0
+309,2016-2017,Kharif,Adilabad,Mavala,Castor,0,0
+310,2016-2017,Kharif,Adilabad,Jainad,Castor,0,0
+311,2016-2017,Kharif,Adilabad,Bela,Castor,0,0
+312,2016-2017,Kharif,Adilabad,Ichoda,Castor,0,0
+313,2016-2017,Kharif,Adilabad,Sirikonda,Castor,0,0
+314,2016-2017,Kharif,Adilabad,Gudihathnoor,Castor,0,0
+315,2016-2017,Kharif,Adilabad,Bheempur,Castor,0,0
+316,2016-2017,Kharif,Adilabad,Tamsi,Castor,0,0
+317,2016-2017,Kharif,Adilabad,Talamadugu,Castor,0,0
+318,2016-2017,Kharif,Adilabad,Boath,Castor,0,0
+319,2016-2017,Kharif,Adilabad,Bazarhathnoor,Castor,0,0
+320,2016-2017,Kharif,Adilabad,Neradigonda,Castor,0,0
+321,2016-2017,Kharif,Adilabad,Utnoor,Castor,3,8
+322,2016-2017,Kharif,Adilabad,Inderavelly,Castor,5,2
+323,2016-2017,Kharif,Adilabad,Narnoor,Castor,39,27
+324,2016-2017,Kharif,Adilabad,Gadiguda,Castor,39,52
+325,2016-2017,Kharif,Adilabad,Adilabad R,Soyabean,1088,1545
+326,2016-2017,Kharif,Adilabad,Adilabad U,Soyabean,0,0
+327,2016-2017,Kharif,Adilabad,Mavala,Soyabean,0,128
+328,2016-2017,Kharif,Adilabad,Jainad,Soyabean,4385,6007
+329,2016-2017,Kharif,Adilabad,Bela,Soyabean,1975,3105
+330,2016-2017,Kharif,Adilabad,Ichoda,Soyabean,2844,3220
+331,2016-2017,Kharif,Adilabad,Sirikonda,Soyabean,0,1210
+332,2016-2017,Kharif,Adilabad,Gudihathnoor,Soyabean,1274,3650
+333,2016-2017,Kharif,Adilabad,Bheempur,Soyabean,0,3069
+334,2016-2017,Kharif,Adilabad,Tamsi,Soyabean,1445,1276
+335,2016-2017,Kharif,Adilabad,Talamadugu,Soyabean,347,718
+336,2016-2017,Kharif,Adilabad,Boath,Soyabean,3974,4800
+337,2016-2017,Kharif,Adilabad,Bazarhathnoor,Soyabean,3437,4288
+338,2016-2017,Kharif,Adilabad,Neradigonda,Soyabean,1796,3285
+339,2016-2017,Kharif,Adilabad,Utnoor,Soyabean,3936,3250
+340,2016-2017,Kharif,Adilabad,Inderavelly,Soyabean,4097,4585
+341,2016-2017,Kharif,Adilabad,Narnoor,Soyabean,4031,2137
+342,2016-2017,Kharif,Adilabad,Gadiguda,Soyabean,4031,1609
+343,2016-2017,Kharif,Adilabad,Adilabad R,Other Oil Seeds,0,0
+344,2016-2017,Kharif,Adilabad,Adilabad U,Other Oil Seeds,0,0
+345,2016-2017,Kharif,Adilabad,Mavala,Other Oil Seeds,0,0
+346,2016-2017,Kharif,Adilabad,Jainad,Other Oil Seeds,0,0
+347,2016-2017,Kharif,Adilabad,Bela,Other Oil Seeds,0,0
+348,2016-2017,Kharif,Adilabad,Ichoda,Other Oil Seeds,0,0
+349,2016-2017,Kharif,Adilabad,Sirikonda,Other Oil Seeds,0,0
+350,2016-2017,Kharif,Adilabad,Gudihathnoor,Other Oil Seeds,0,0
+351,2016-2017,Kharif,Adilabad,Bheempur,Other Oil Seeds,0,0
+352,2016-2017,Kharif,Adilabad,Tamsi,Other Oil Seeds,0,0
+353,2016-2017,Kharif,Adilabad,Talamadugu,Other Oil Seeds,0,0
+354,2016-2017,Kharif,Adilabad,Boath,Other Oil Seeds,0,0
+355,2016-2017,Kharif,Adilabad,Bazarhathnoor,Other Oil Seeds,0,0
+356,2016-2017,Kharif,Adilabad,Neradigonda,Other Oil Seeds,0,0
+357,2016-2017,Kharif,Adilabad,Utnoor,Other Oil Seeds,0,0
+358,2016-2017,Kharif,Adilabad,Inderavelly,Other Oil Seeds,0,0
+359,2016-2017,Kharif,Adilabad,Narnoor,Other Oil Seeds,0,0
+360,2016-2017,Kharif,Adilabad,Gadiguda,Other Oil Seeds,0,0
+361,2016-2017,Kharif,Adilabad,Adilabad R,Tobacco,0,0
+362,2016-2017,Kharif,Adilabad,Adilabad U,Tobacco,0,0
+363,2016-2017,Kharif,Adilabad,Mavala,Tobacco,0,0
+364,2016-2017,Kharif,Adilabad,Jainad,Tobacco,0,0
+365,2016-2017,Kharif,Adilabad,Bela,Tobacco,0,0
+366,2016-2017,Kharif,Adilabad,Ichoda,Tobacco,0,0
+367,2016-2017,Kharif,Adilabad,Sirikonda,Tobacco,0,0
+368,2016-2017,Kharif,Adilabad,Gudihathnoor,Tobacco,0,0
+369,2016-2017,Kharif,Adilabad,Bheempur,Tobacco,0,0
+370,2016-2017,Kharif,Adilabad,Tamsi,Tobacco,0,0
+371,2016-2017,Kharif,Adilabad,Talamadugu,Tobacco,0,0
+372,2016-2017,Kharif,Adilabad,Boath,Tobacco,0,0
+373,2016-2017,Kharif,Adilabad,Bazarhathnoor,Tobacco,0,0
+374,2016-2017,Kharif,Adilabad,Neradigonda,Tobacco,0,0
+375,2016-2017,Kharif,Adilabad,Utnoor,Tobacco,0,0
+376,2016-2017,Kharif,Adilabad,Inderavelly,Tobacco,0,0
+377,2016-2017,Kharif,Adilabad,Narnoor,Tobacco,0,0
+378,2016-2017,Kharif,Adilabad,Gadiguda,Tobacco,0,0
+379,2016-2017,Kharif,Adilabad,Adilabad R,Other Non-Food Crops,0,0
+380,2016-2017,Kharif,Adilabad,Adilabad U,Other Non-Food Crops,0,10
+381,2016-2017,Kharif,Adilabad,Mavala,Other Non-Food Crops,0,2
+382,2016-2017,Kharif,Adilabad,Jainad,Other Non-Food Crops,1,8
+383,2016-2017,Kharif,Adilabad,Bela,Other Non-Food Crops,0,0
+384,2016-2017,Kharif,Adilabad,Ichoda,Other Non-Food Crops,0,0
+385,2016-2017,Kharif,Adilabad,Sirikonda,Other Non-Food Crops,0,1
+386,2016-2017,Kharif,Adilabad,Gudihathnoor,Other Non-Food Crops,0,0
+387,2016-2017,Kharif,Adilabad,Bheempur,Other Non-Food Crops,0,0
+388,2016-2017,Kharif,Adilabad,Tamsi,Other Non-Food Crops,0,0
+389,2016-2017,Kharif,Adilabad,Talamadugu,Other Non-Food Crops,0,0
+390,2016-2017,Kharif,Adilabad,Boath,Other Non-Food Crops,0,0
+391,2016-2017,Kharif,Adilabad,Bazarhathnoor,Other Non-Food Crops,0,0
+392,2016-2017,Kharif,Adilabad,Neradigonda,Other Non-Food Crops,0,0
+393,2016-2017,Kharif,Adilabad,Utnoor,Other Non-Food Crops,1,4
+394,2016-2017,Kharif,Adilabad,Inderavelly,Other Non-Food Crops,0,3
+395,2016-2017,Kharif,Adilabad,Narnoor,Other Non-Food Crops,0,2
+396,2016-2017,Kharif,Adilabad,Gadiguda,Other Non-Food Crops,0,2
+397,2016-2017,Kharif,Adilabad,Adilabad R,Gross Area Sown,16377,14562
+398,2016-2017,Kharif,Adilabad,Adilabad U,Gross Area,0,189
+399,2016-2017,Kharif,Adilabad,Mavala,Gross Area,0,1140
+400,2016-2017,Kharif,Adilabad,Jainad,Gross Area,21410,21604
+401,2016-2017,Kharif,Adilabad,Bela,Gross Area,15828,16727
+402,2016-2017,Kharif,Adilabad,Ichoda,Gross Area,14878,13301
+403,2016-2017,Kharif,Adilabad,Sirikonda,Gross Area,0,5037
+404,2016-2017,Kharif,Adilabad,Gudihathnoor,Gross Area,10694,11425
+405,2016-2017,Kharif,Adilabad,Bheempur,Gross Area,14,11001
+406,2016-2017,Kharif,Adilabad,Tamsi,Gross Area,18321,7738
+407,2016-2017,Kharif,Adilabad,Talamadugu,Gross Area,14299,13686
+408,2016-2017,Kharif,Adilabad,Boath,Gross Area,15590,14221
+409,2016-2017,Kharif,Adilabad,Bazarhathnoor,Gross Area,12352,12211
+410,2016-2017,Kharif,Adilabad,Neradigonda,Gross Area,9110,9592
+411,2016-2017,Kharif,Adilabad,Utnoor,Gross Area,15668,16864
+412,2016-2017,Kharif,Adilabad,Inderavelly,Gross Area,17240,15824
+413,2016-2017,Kharif,Adilabad,Narnoor,Gross Area,18321,9373
+414,2016-2017,Kharif,Adilabad,Gadiguda,Gross Area,0,9138
