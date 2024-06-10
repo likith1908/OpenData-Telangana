@@ -200,7 +200,8 @@ elif selected_sector == 'Infrastructure':
 
 
 if st.sidebar.button("Future Implementations"):
-    st.experimental_set_query_params()
+    # st.experimental_set_query_params()
+    st.query_params()
     # st.experimental_rerun()
     st.rerun()
     st.markdown("<script>window.open('https://wind-speed-prediction.streamlit.app/', '_blank');</script>", unsafe_allow_html=True)
