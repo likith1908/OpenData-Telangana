@@ -86,11 +86,6 @@ if st.session_state['Homepage']:
     # Toggle the Homepage
     st.sidebar.button("Go to Homepage", on_click=lambda: st.session_state.update({'Homepage': True}), key='homepage_button')
 
-if st.sidebar.button("Future Implementations"):
-        st.experimental_set_query_params()
-        # Redirect to the Wind Speed Prediction App
-        st.experimental_rerun()
-        st.experimental_redirect("https://wind-speed-prediction.streamlit.app/")
     
 # Sector selection
 sector_options = ['Agriculture', 'Health', 'Infrastructure']
@@ -202,3 +197,10 @@ elif selected_sector == 'Infrastructure':
         fig = px.bar(df_infrastructure, x='Districts', y=['Minor Irrigation Tanks', 'Sanctions Mission Kakatiya Phase-I', 'Sanctions Mission Kakatiya Phase-II'],
                      title='Mission Kakateeya by District')
         st.plotly_chart(fig)
+
+
+
+if st.sidebar.button("Future Implementations"):
+    st.experimental_set_query_params()
+    st.experimental_rerun()
+    st.experimental_redirect("https://wind-speed-prediction.streamlit.app/")
