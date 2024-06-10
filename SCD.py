@@ -200,7 +200,7 @@ elif selected_sector == 'Infrastructure':
 
 
 pages = {
-    "Future Implementations": future_implementations
+    "Future Implementations": future_implementations()
 }
 
 def future_implementations():
