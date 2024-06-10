@@ -214,3 +214,5 @@ def main():
     
     # Display the selected page with its contents
     pages[selection]()
+if __name__ == "__main__":
+    main()
