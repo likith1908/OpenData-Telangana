@@ -1,4 +1,5 @@
-pandas
-matplotplib
-pickel
 streamlit
+pandas
+numpy
+matplotlib
+scikit-learn
