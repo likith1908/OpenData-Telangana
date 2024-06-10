@@ -2,4 +2,3 @@ pandas
 matplotplib
 pickel
 streamlit
-scikit-learn
