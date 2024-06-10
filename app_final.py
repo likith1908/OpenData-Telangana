@@ -35,7 +35,7 @@ def team():
 def sectors():
     st.title("Sectors")
     st.subheader("Select a sector to view")
-    sectors_list = ["Health", "Agriculture", "Water Quality"]
+    sectors_list = ["Health", "Agriculture", "Water Quality", "Future_Implementations"]
     sector_selection = st.selectbox("Choose a sector:", sectors_list)
     
     if sector_selection == "Health":
@@ -61,7 +61,9 @@ pages = {
     "Team": team,  # Ensure 'team' function is also defined
 }
 
-
+def future_implementations():
+    st.write("""Here we are using Adilabad weather data to predict wind speed using temperature and humidity as inputs. This can be extended to any other districts data. """)
+    st.link_button("Click here for the prediction","https://wind-speed-prediction.streamlit.app/")
 def main():
     # Navigation sidebar
     st.sidebar.title("Navigation")
@@ -70,11 +72,7 @@ def main():
     # Display the selected page with its contents
     pages[selection]()
 
-    # Add button in the sidebar
-    if selection != "Home":  # Exclude button from the Home page
-        if st.sidebar.button("Future Implementations"):
-            st.markdown("<script>window.open('https://wind-speed-prediction.streamlit.app/', '_blank');</script>", unsafe_allow_html=True)
-
+    
 
 if __name__ == "__main__":
     main()
