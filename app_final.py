@@ -58,7 +58,8 @@ def home():
 pages = {
     "Home": home,
     "Sectors": sectors,
-    "Team": team,  # Ensure 'team' function is also defined
+    "Team": team,
+    "Future_Implementations": future_implementations
 }
 
 def future_implementations():
