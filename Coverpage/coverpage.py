@@ -21,4 +21,4 @@ st.write("""
 This project proposes an online dashboard to aggregate and analyze Telangana's open government data. Interactive visualizations and geospatial maps empower citizens, policymakers, and researchers to explore crucial information. The dashboard leverages user feedback and AI/ML for predictive analytics, fostering data-driven decision-making for Telangana's development.
 """)
 
-st.link_button("Get Started!!", "https://opendata-telangana1.streamlit.app/")
+st.link_button("Get Started!!", "https://opendata-telangana.streamlit.app/")
