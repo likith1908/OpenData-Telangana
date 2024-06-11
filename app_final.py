@@ -550,8 +550,13 @@ def sectors():
             st.plotly_chart(fig)
         
         elif sub_sector_selection == "Adilabad Crop":
-            fig = px.bar(df_agriculture, x='mandal_name', y='actual_area', title='Adilabad Crop Area by Mandal')
+            # fig = px.bar(df_agriculture, x='mandal_name', y='actual_area', title='Adilabad Crop Area by Mandal')
+            # st.plotly_chart(fig)
+            fig = px.bar(df_health, x='mandal_name', y='actual_area', title='Adilabad Crop Area by Mandal')
             st.plotly_chart(fig)
+            df_grouped = df_health.groupby('District')['actual_area'].sum().reset_index()
+            fig0 = px.bar(df_grouped,x='mandal_name', y='actual_area', title='Adilabad Crop Area by District')
+            st.plotly_chart(fig0)
         
         elif sub_sector_selection == "Cereals and Millets":
             fig = px.bar(df_agriculture, x='crop', y='area_total', title='Cereals and Millets Area by Crop')
