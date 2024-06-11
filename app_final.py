@@ -579,7 +579,7 @@ def sectors():
         
         elif sub_sector_selection == "Gram Panchayat Roads":
             fig = px.bar(df_infrastructure, x='Districts', y=['GPs having BT roads', 'GPs to be covered with BT roads', 'Total Habitations (other than GPs)', 
-                                                             'Habitations having all weather roads', 'Habitations not having all weather roads'],
+                                                             'Habitations having all weather roads', 'Habitations not having all weather roads   '],
                          title='Gram Panchayat Roads by District')
             st.plotly_chart(fig)
         
