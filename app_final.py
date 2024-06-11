@@ -87,7 +87,8 @@ import folium
 from streamlit_folium import folium_static
 
 # Load the Telangana shapefile
-telangana = gpd.read_file('ShapeFiles/TS_District_Boundary_33_FINAL.shp')
+telangana = gpd.read_file('ShapeFiles/TS_District_Boundary_33/TS_District_Boundary_33_FINAL.shp')
+
 
 # Ensure the GeoDataFrame has a single geometry column
 telangana = telangana.to_crs(epsg=4326)
@@ -298,8 +299,8 @@ def home():
     
 
     # Load shapefiles
-    districts = gpd.read_file('ShapeFiles/TS_District_Boundary_33_FINAL.shp')
-    mandals = gpd.read_file('ShapeFiles/TS_Mandal_Boundary_632_FINAL.shp')
+    districts = gpd.read_file('ShapeFiles/TS_District_Boundary_33/TS_District_Boundary_33_FINAL.shp')
+    mandals = gpd.read_file('ShapeFiles/TS_Mandal_Boundary_632/TS_Mandal_Boundary_632_FINAL.shp')
 
     # Streamlit app
     # st.title("Telangana Districts and Mandals")
