@@ -305,7 +305,7 @@ telangana['geometry'] = telangana['geometry'].apply(lambda x: x.__geo_interface_
 telangana_df = telangana
 
 
-griculture_files = {
+agriculture_files = {
     
     "Ground Water Level": 'DataSets/Agriculture/Telangana_GrounWaterLevel_Overall/Telangana_GrounWaterLevel_Overall.csv',
     "Suryapet Crop": 'DataSets/Agriculture/Suryapet_mandal_wise_crop/Suryapet_mandal_wise_crop.csv',
