@@ -299,8 +299,8 @@ def home():
     
 
     # Load shapefiles
-    districts = gpd.read_file('/Users/likithgannarapu/Desktop/MU/Sem 6/Social Computing/Streamlit/20231018__Telangana_Shape_Files 2/TS_District_Boundary_33/TS_District_Boundary_33_FINAL.shp')
-    mandals = gpd.read_file('/Users/likithgannarapu/Desktop/MU/Sem 6/Social Computing/Streamlit/20231018__Telangana_Shape_Files 2/TS_Mandal_Boundary_632/TS_Mandal_Boundary_632_FINAL.shp')
+    districts = gpd.read_file('ShapeFiles/TS_District_Boundary_33_FINAL.shp')
+    mandals = gpd.read_file('ShapeFiles/TS_Mandal_Boundary_632_FINAL.shp')
 
     # Streamlit app
     # st.title("Telangana Districts and Mandals")
