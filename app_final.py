@@ -560,7 +560,7 @@ def sectors():
             def load_and_aggregate_data(df):
                 # Ensure the year column is treated as datetime for proper grouping
                 # df['year'] = pd.to_datetime(df['year']).dt.year
-                df['year'] = to_datetime(df['year'], format='%Y-%Y').dt.year
+                # df['year'] = to_datetime(df['year'], format='%Y-%Y').dt.year
                 aggregated_df = df.groupby(['crop', 'mandal_name'])['actual_area'].sum().reset_index()
                 # aggregated_df = df.groupby(['year', 'crop', 'mandal_name'])['actual_area'].sum().reset_index()
                 return aggregated_df
