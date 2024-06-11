@@ -326,7 +326,8 @@ infrastructure_files = {
     "Classification of Roads": 'DataSets/infrastructure/Classification of Roads.csv',
     "Mission Kakateeya": 'DataSets/infrastructure/Mission Kakateeya.csv',
     "Electricity Connections": 'DataSets/infrastructure/Electricity Connections.csv',
-    "2BHK Housing Scheme": 'DataSets/infrastructure/2BHK Housing Scheme.csv'
+    "2BHK Housing Scheme": 'DataSets/infrastructure/2BHK Housing Scheme.csv',
+    "Gram Panchayat Roads": 'DataSets/infrastructure/Gram Pamchayat (Roads).csv'
 }
 
 # Define a function to load and display data
