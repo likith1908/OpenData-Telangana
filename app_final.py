@@ -552,11 +552,32 @@ def sectors():
         elif sub_sector_selection == "Adilabad Crop":
             # fig = px.bar(df_agriculture, x='mandal_name', y='actual_area', title='Adilabad Crop Area by Mandal')
             # st.plotly_chart(fig)
-            fig = px.bar(df_agriculture, x='mandal_name', y='actual_area', title='Adilabad Crop Area by Mandal')
+            # df_grouped = df_agriculture.groupby('District')['actual_area'].sum().reset_index()
+            # fig0 = px.bar(df_grouped,x='mandal_name', y='actual_area', title='Adilabad Crop Area by District')
+            # st.plotly_chart(fig0)
+
+            # Function to load and aggregate data by year, crop, and mandal name
+            def load_and_aggregate_data(df):
+                # Ensure the year column is treated as datetime for proper grouping
+                df['year'] = pd.to_datetime(df['year']).dt.year
+                aggregated_df = df.groupby(['year', 'crop', 'mandal_name'])['actual_area'].sum().reset_index()
+                return aggregated_df
+
+            # Load and aggregate data
+            aggregated_df = load_and_aggregate_data(df_agriculture)
+
+            # Create a bar chart showing the actual area owned for each crop across different mandals in Adilabad district
+            fig = px.bar(aggregated_df[aggregated_df['mandal_name'].isin(['Adilabad R', 'Adilabad U', 'Mavala', 'Jainad', 'Bela', 'Ichoda', 'Sirikonda', 'Gudihathnoor', 'Bheempur', 'Tamsi', 'Talamadugu', 'Boath', 'Bazarhathnoor', 'Neradigonda', 'Utnoor', 'Inderavelly', 'Narnoor', 'Gadiguda'])], 
+                         x='mandal_name', y='actual_area', color='crop', title='Actual Area Owned by Crop Across Mandals in Adilabad District',
+                         labels={'actual_area': 'Actual Area Owned'})
             st.plotly_chart(fig)
-            df_grouped = df_agriculture.groupby('District')['actual_area'].sum().reset_index()
-            fig0 = px.bar(df_grouped,x='mandal_name', y='actual_area', title='Adilabad Crop Area by District')
-            st.plotly_chart(fig0)
+
+            # Group by district and create a bar chart comparing the total actual area owned by district
+            df_district_summary = aggregated_df.groupby('mandal_name')['actual_area'].sum().reset_index()
+            fig_district = px.bar(df_district_summary, x='mandal_name', y='actual_area', title='Total Actual Area Owned by District in Adilabad')
+            st.plotly_chart(fig_district)
+
+
         
         elif sub_sector_selection == "Cereals and Millets":
             fig = px.bar(df_agriculture, x='crop', y='area_total', title='Cereals and Millets Area by Crop')
