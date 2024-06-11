@@ -87,7 +87,7 @@ import folium
 from streamlit_folium import folium_static
 
 # Load the Telangana shapefile
-telangana = gpd.read_file('/Users/likithgannarapu/Desktop/MU/Sem 6/Social Computing/Streamlit/20231018__Telangana_Shape_Files 2/TS_District_Boundary_33/TS_District_Boundary_33_FINAL.shp')
+telangana = gpd.read_file('ShapeFiles/TS_District_Boundary_33_FINAL.shp')
 
 # Ensure the GeoDataFrame has a single geometry column
 telangana = telangana.to_crs(epsg=4326)
@@ -97,30 +97,29 @@ telangana['geometry'] = telangana['geometry'].apply(lambda x: x.__geo_interface_
 telangana_df = telangana
 
 
-agriculture_files = {
-    "Ground Water Level": '/Users/likithgannarapu/Desktop/MU/Sem 6/Social Computing/Streamlit/Extraction_f/Agriculture/Telangana_GrounWaterLevel_Overall/Telangana_GrounWaterLevel_Overall.csv',
-    "Suryapet Crop": '/Users/likithgannarapu/Desktop/MU/Sem 6/Social Computing/Streamlit/Extraction_f/Agriculture/Suryapet_mandal_wise_crop/Suryapet_mandal_wise_crop.csv',
-    "Cash Crops": '/Users/likithgannarapu/Desktop/MU/Sem 6/Social Computing/Streamlit/Extraction_f/Agriculture/Cash_crops_2016-2017/Cash_crops_2016-2017.csv',
-    "Adilabad Crop": '/Users/likithgannarapu/Desktop/MU/Sem 6/Social Computing/Streamlit/Extraction_f/Agriculture/Adilabad_mandal_wise_crop/Adilabad_mandal_wise_crop.csv',
-    "Cereals and Millets": '/Users/likithgannarapu/Desktop/MU/Sem 6/Social Computing/Streamlit/Extraction_f/Agriculture/Cereals_and_Millets_2016-2017/Cereals_and_Millets_2016-2017.csv'
+griculture_files = {
+    "Ground Water Level": 'DataSets/Agriculture/Telangana_GrounWaterLevel_Overall/Telangana_GrounWaterLevel_Overall.csv',
+    "Suryapet Crop": 'DataSets/Agriculture/Suryapet_mandal_wise_crop/Suryapet_mandal_wise_crop.csv',
+    "Cash Crops": 'DataSets/Agriculture/Cash_crops_2016-2017/Cash_crops_2016-2017.csv',
+    "Adilabad Crop": 'DataSets/Agriculture/Adilabad_mandal_wise_crop/Adilabad_mandal_wise_crop.csv',
+    "Cereals and Millets": 'DataSets/Agriculture/Cereals_and_Millets_2016-2017/Cereals_and_Millets_2016-2017.csv'
 }
 
 health_files = {
-    "Urban Health Centers": '/Users/likithgannarapu/Desktop/MU/Sem 6/Social Computing/Streamlit/Extraction_f/Health/Urban Health Centers.csv',
-    "Primary Health Centers": '/Users/likithgannarapu/Desktop/MU/Sem 6/Social Computing/Streamlit/Extraction_f/Health/Primary Health Centers.csv',
-    "District Health Assets": '/Users/likithgannarapu/Desktop/MU/Sem 6/Social Computing/Streamlit/Extraction_f/Health/District wise health general asset .csv',
-    "Area of Hospitals": '/Users/likithgannarapu/Desktop/MU/Sem 6/Social Computing/Streamlit/Extraction_f/Health/Area of Hospitals .csv',
-    "Community Health Centers": '/Users/likithgannarapu/Desktop/MU/Sem 6/Social Computing/Streamlit/Extraction_f/Health/Community Health Centers.csv',
-    "Overview of Hospitals": '/Users/likithgannarapu/Desktop/MU/Sem 6/Social Computing/Streamlit/Extraction_f/Health/overview_of_hospitals.csv'
+    "Urban Health Centers": 'DataSets/Health/Urban Health Centers.csv',
+    "Primary Health Centers": 'DataSets/Health/Primary Health Centers.csv',
+    "District Health Assets": 'DataSets/Health/District wise health general asset .csv',
+    "Area of Hospitals": 'DataSets/Health/Area of Hospitals .csv',
+    "Community Health Centers": 'DataSets/Health/Community Health Centers.csv',
+    "Overview of Hospitals": 'DataSets/Health/overview_of_hospitals.csv'
 }
 
 infrastructure_files = {
-    "Classification of Roads": '/Users/likithgannarapu/Desktop/MU/Sem 6/Social Computing/Streamlit/Extraction_f/infrastructure/Classification of Roads.csv',
-    "Mission Kakateeya": '/Users/likithgannarapu/Desktop/MU/Sem 6/Social Computing/Streamlit/Extraction_f/infrastructure/Mission Kakateeya.csv',
-    "Electricity Connections": '/Users/likithgannarapu/Desktop/MU/Sem 6/Social Computing/Streamlit/Extraction_f/infrastructure/Electricity Connections.csv',
-    "2BHK Housing Scheme": '/Users/likithgannarapu/Desktop/MU/Sem 6/Social Computing/Streamlit/Extraction_f/infrastructure/2BHK Housing Scheme.csv'
+    "Classification of Roads": 'DataSets/infrastructure/Classification of Roads.csv',
+    "Mission Kakateeya": 'DataSets/infrastructure/Mission Kakateeya.csv',
+    "Electricity Connections": 'DataSets/infrastructure/Electricity Connections.csv',
+    "2BHK Housing Scheme": 'DataSets/infrastructure/2BHK Housing Scheme.csv'
 }
-
 
 # Define a function to load and display data
 def load_and_display_data(file_path):
